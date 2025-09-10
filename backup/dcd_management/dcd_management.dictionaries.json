@@ -1,0 +1,238 @@
+[{
+  "_id": {
+    "$oid": "68ad742c7d1c0ba02880de2c"
+  },
+  "type": "brand_category",
+  "label": "重奢",
+  "value": "1",
+  "sort": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-26T08:45:32.436Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-26T08:55:07.601Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68ad765d7d1c0ba02880df20"
+  },
+  "type": "brand_category",
+  "label": "轻奢",
+  "value": "2",
+  "sort": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-26T08:54:53.904Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-26T08:54:53.904Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68ae989e1a20fd75df5795a5"
+  },
+  "type": "brand_category",
+  "label": "运奢",
+  "value": "3",
+  "sort": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-27T05:33:18.793Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-27T05:33:18.793Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bff9b8722a0b3fc54c42f3"
+  },
+  "type": "brand_category",
+  "label": "网红餐饮",
+  "value": "4",
+  "sort": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T09:56:08.189Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T09:56:17.525Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bff9cf722a0b3fc54c42fc"
+  },
+  "type": "brand_category",
+  "label": "连锁门店",
+  "value": "5",
+  "sort": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T09:56:31.310Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:30:41.108Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffa2a722a0b3fc54d2299"
+  },
+  "type": "brand_category",
+  "label": "运动轻奢",
+  "value": "6",
+  "sort": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T09:58:02.074Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T09:58:02.074Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffa34722a0b3fc54d229e"
+  },
+  "type": "brand_category",
+  "label": "运动重奢",
+  "value": "7",
+  "sort": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T09:58:12.266Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T09:58:12.266Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffa3f722a0b3fc54d22a3"
+  },
+  "type": "brand_category",
+  "label": "运动中奢",
+  "value": "8",
+  "sort": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T09:58:23.036Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T09:58:23.036Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffa6d722a0b3fc54daeb1"
+  },
+  "type": "brand_category",
+  "label": "中高端运动品牌",
+  "value": "9",
+  "sort": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T09:59:09.156Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T09:59:50.969Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bfff49722a0b3fc551f086"
+  },
+  "type": "brand_category",
+  "label": "国际名表(轻奢)",
+  "value": "10",
+  "sort": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T10:19:53.075Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:32:17.355Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c000f0722a0b3fc5530817"
+  },
+  "type": "brand_category",
+  "label": "国际名表(顶奢)",
+  "value": "11",
+  "sort": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T10:26:56.138Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:32:20.475Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c001e3722a0b3fc5530830"
+  },
+  "type": "brand_category",
+  "label": "国际名表中奢",
+  "value": "12",
+  "sort": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T10:30:59.480Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:32:08.452Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c001f9722a0b3fc5530835"
+  },
+  "type": "brand_category",
+  "label": "国际名表重奢",
+  "value": "13",
+  "sort": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T10:31:21.778Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:32:11.958Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c00217722a0b3fc553083c"
+  },
+  "type": "brand_category",
+  "label": "中高端国际名表",
+  "value": "14",
+  "sort": 14,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T10:31:51.810Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:31:56.379Z"
+  },
+  "__v": 0
+}]

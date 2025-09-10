@@ -1,0 +1,501 @@
+[{
+  "_id": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "name": "COACH",
+  "code": "COACH",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T06:32:07.044Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T09:51:41.272Z"
+  },
+  "__v": 0,
+  "address": "",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae63"
+  },
+  "category": "2",
+  "website": "",
+  "logo": "http://localhost:5002/uploads/logo-1756272540990-449004151.png",
+  "sort": 1,
+  "score": 5
+},
+{
+  "_id": {
+    "$oid": "68a2ccffed3188f703c185d3"
+  },
+  "name": "GUCCI",
+  "code": "GUCCI",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T06:49:35.285Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-27T07:44:31.810Z"
+  },
+  "__v": 0,
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae19"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cd"
+  },
+  "address": "",
+  "category": "1",
+  "website": "https://www.coach.com.cn/store/search",
+  "district": {
+    "$oid": "68a282e76e1688af0d5cae2d"
+  },
+  "logo": "http://localhost:5002/uploads/logo-1756280670044-851182350.webp"
+},
+{
+  "_id": {
+    "$oid": "68a2edab906514ea53afba27"
+  },
+  "name": "LV",
+  "code": "LV",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T09:08:59.518Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-27T07:44:23.909Z"
+  },
+  "__v": 0,
+  "address": "",
+  "category": "1",
+  "website": "",
+  "logo": "http://localhost:5002/uploads/logo-1756280661868-81396358.webp"
+},
+{
+  "_id": {
+    "$oid": "68ae98011a20fd75df579546"
+  },
+  "name": "Vivienne Westwood",
+  "code": "西太后",
+  "logo": "http://localhost:5002/uploads/logo-1756272639339-536446697.webp",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-27T05:30:41.201Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-27T07:48:47.896Z"
+  },
+  "__v": 0,
+  "category": "2"
+},
+{
+  "_id": {
+    "$oid": "68ae98431a20fd75df579561"
+  },
+  "name": "lululemon",
+  "code": "lululemon",
+  "logo": "http://localhost:5002/uploads/logo-1756272705899-300950135.png",
+  "website": "https://www.lululemon.cn/",
+  "category": "3",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-27T05:31:47.045Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-27T05:33:26.021Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68ae9a141a20fd75df579604"
+  },
+  "name": "FERRAGAMO",
+  "code": "FERRAGAMO",
+  "website": "https://www.ferragamo.cn/",
+  "category": "2",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-27T05:39:32.407Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-27T05:39:37.902Z"
+  },
+  "__v": 0,
+  "logo": "http://localhost:5002/uploads/logo-1756273177144-796698220.png"
+},
+{
+  "_id": {
+    "$oid": "68ae9a461a20fd75df579640"
+  },
+  "name": "MCM",
+  "code": "MCM",
+  "logo": "http://localhost:5002/uploads/logo-1756273222015-923795750.png",
+  "website": "https://cn.mcmworldwide.com/zh_CN/home",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-27T05:40:22.842Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-27T05:41:16.975Z"
+  },
+  "__v": 0,
+  "category": "2"
+},
+{
+  "_id": {
+    "$oid": "68ae9a751a20fd75df57965e"
+  },
+  "name": "ARC'TERYX",
+  "code": "始祖鸟",
+  "logo": "http://localhost:5002/uploads/logo-1756273268498-861423252.png",
+  "category": "3",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-27T05:41:09.622Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-27T06:11:42.620Z"
+  },
+  "__v": 0,
+  "website": "https://arcteryx.com/cn"
+},
+{
+  "_id": {
+    "$oid": "68aeb7ca1a20fd75df579820"
+  },
+  "name": "PRADA",
+  "code": "PRADA",
+  "logo": "http://localhost:5002/uploads/logo-1756280777817-241989963.webp",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-27T07:46:18.430Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-27T07:46:47.563Z"
+  },
+  "__v": 0,
+  "category": "1"
+},
+{
+  "_id": {
+    "$oid": "68aeb7dc1a20fd75df579840"
+  },
+  "name": "Hermes",
+  "code": "Hermes",
+  "logo": "http://localhost:5002/uploads/logo-1756281853887-310261934.webp",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-27T07:46:36.725Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-27T08:04:14.385Z"
+  },
+  "__v": 0,
+  "category": "1"
+},
+{
+  "_id": {
+    "$oid": "68aeb8501a20fd75df5798a7"
+  },
+  "name": "CHANEL",
+  "code": "香奈儿",
+  "logo": "http://localhost:5002/uploads/logo-1756280909942-22890970.jpg",
+  "category": "1",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-27T07:48:32.904Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-27T07:48:32.904Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68aeb87b1a20fd75df5798f0"
+  },
+  "name": "Diro",
+  "code": "迪奥",
+  "logo": "http://localhost:5002/uploads/logo-1756280954312-733315688.jpg",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-27T07:49:15.986Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T09:51:46.905Z"
+  },
+  "__v": 0,
+  "category": "1",
+  "sort": 2,
+  "score": 10
+},
+{
+  "_id": {
+    "$oid": "68bff662d8997a65fab867e0"
+  },
+  "name": "salomon",
+  "code": "萨洛蒙",
+  "isActive": true,
+  "sort": 0,
+  "createdAt": {
+    "$date": "2025-09-09T09:41:54.663Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T09:57:46.268Z"
+  },
+  "__v": 0,
+  "score": 1,
+  "category": "3"
+},
+{
+  "_id": {
+    "$oid": "68bff8f8722a0b3fc54c0b1a"
+  },
+  "name": "THE NORTH FACE",
+  "code": "北面",
+  "isActive": true,
+  "sort": 0,
+  "score": 0,
+  "createdAt": {
+    "$date": "2025-09-09T09:52:56.214Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:00:02.351Z"
+  },
+  "__v": 0,
+  "category": "9"
+},
+{
+  "_id": {
+    "$oid": "68bff925722a0b3fc54c2703"
+  },
+  "name": "mammut",
+  "code": "猛犸象",
+  "isActive": true,
+  "sort": 0,
+  "score": 0,
+  "createdAt": {
+    "$date": "2025-09-09T09:53:41.273Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T09:58:40.743Z"
+  },
+  "__v": 0,
+  "category": "8"
+},
+{
+  "_id": {
+    "$oid": "68bff9f1722a0b3fc54cb2e1"
+  },
+  "name": "达美乐披萨",
+  "code": "达美乐披萨",
+  "isActive": true,
+  "sort": 0,
+  "score": 0,
+  "createdAt": {
+    "$date": "2025-09-09T09:57:05.353Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T09:57:30.075Z"
+  },
+  "__v": 0,
+  "category": "5"
+},
+{
+  "_id": {
+    "$oid": "68bffad3722a0b3fc54e3a87"
+  },
+  "name": "KOLON SPORT",
+  "code": "可隆",
+  "isActive": true,
+  "sort": 0,
+  "score": 0,
+  "createdAt": {
+    "$date": "2025-09-09T10:00:51.855Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:01:12.854Z"
+  },
+  "__v": 0,
+  "category": "8"
+},
+{
+  "_id": {
+    "$oid": "68bffbf7722a0b3fc54f6e51"
+  },
+  "name": "DESCENTE",
+  "code": "迪桑特",
+  "isActive": true,
+  "sort": 0,
+  "score": 0,
+  "createdAt": {
+    "$date": "2025-09-09T10:05:43.357Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:05:53.338Z"
+  },
+  "__v": 0,
+  "category": "8"
+},
+{
+  "_id": {
+    "$oid": "68bffc25722a0b3fc54fa62f"
+  },
+  "name": "盟泰恩",
+  "code": "MONTANE",
+  "category": "8",
+  "isActive": true,
+  "sort": 0,
+  "score": 0,
+  "createdAt": {
+    "$date": "2025-09-09T10:06:29.296Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:06:29.296Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffdb8722a0b3fc55031db"
+  },
+  "name": "Emporio Armani",
+  "code": "安普里奥阿玛尼",
+  "isActive": true,
+  "sort": 0,
+  "score": 0,
+  "createdAt": {
+    "$date": "2025-09-09T10:13:12.706Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:17:58.871Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffe07722a0b3fc55069c1"
+  },
+  "name": "焦下",
+  "code": "焦下",
+  "category": "9",
+  "isActive": true,
+  "sort": 0,
+  "score": 0,
+  "createdAt": {
+    "$date": "2025-09-09T10:14:31.542Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:14:31.542Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffe6a722a0b3fc55085af"
+  },
+  "name": "HUGO BOSS",
+  "code": "雨果博斯",
+  "isActive": true,
+  "sort": 0,
+  "score": 0,
+  "createdAt": {
+    "$date": "2025-09-09T10:16:10.588Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:17:38.121Z"
+  },
+  "__v": 0,
+  "category": "2"
+},
+{
+  "_id": {
+    "$oid": "68bfff08722a0b3fc551b870"
+  },
+  "name": "TORCY BURCH",
+  "code": "汤丽柏琦",
+  "category": "2",
+  "isActive": true,
+  "sort": 0,
+  "score": 0,
+  "createdAt": {
+    "$date": "2025-09-09T10:18:48.605Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:18:48.605Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bfff2d722a0b3fc551d45e"
+  },
+  "name": "Ralph Lauren",
+  "code": "拉夫劳伦",
+  "isActive": true,
+  "sort": 0,
+  "score": 0,
+  "createdAt": {
+    "$date": "2025-09-09T10:19:25.610Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:19:25.610Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bfff6f722a0b3fc552605f"
+  },
+  "name": "Longines",
+  "code": "浪琴",
+  "category": "10",
+  "isActive": true,
+  "sort": 0,
+  "score": 0,
+  "createdAt": {
+    "$date": "2025-09-09T10:20:31.992Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:20:31.992Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bfff8f722a0b3fc5527c4d"
+  },
+  "name": "OMEGA",
+  "code": "欧米茄",
+  "isActive": true,
+  "sort": 0,
+  "score": 0,
+  "createdAt": {
+    "$date": "2025-09-09T10:21:03.546Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:21:09.752Z"
+  },
+  "__v": 0,
+  "category": "10"
+},
+{
+  "_id": {
+    "$oid": "68c00057722a0b3fc552b42b"
+  },
+  "name": "Glashütte Original",
+  "code": "格拉苏蒂原创",
+  "category": "10",
+  "isActive": true,
+  "sort": 0,
+  "score": 7,
+  "createdAt": {
+    "$date": "2025-09-09T10:24:23.878Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:25:59.797Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,2095 @@
+[{
+  "_id": {
+    "$oid": "68a2eaaf864464215abc352c"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "689ef86b353e0c9323bfb857"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae63"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T08:56:15.960Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T09:27:13.259Z"
+  },
+  "__v": 0,
+  "storeAddress": "江苏省徐州市鼓楼区淮海东路29号1F128号铺位"
+},
+{
+  "_id": {
+    "$oid": "68a2ebf481ed3ef9aca3f601"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a2ebe381ed3ef9aca3f5d4"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae63"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T09:01:40.613Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T09:29:02.472Z"
+  },
+  "__v": 0,
+  "isOla": true,
+  "storeAddress": "江苏省徐州市泉山区玉带大道6号徐州杉杉奥特莱斯购物广场A152"
+},
+{
+  "_id": {
+    "$oid": "68a569b7a68c10c59317a0c1"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a569aca68c10c59317a095"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T06:22:47.037Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T07:01:24.867Z"
+  },
+  "__v": 0,
+  "storeAddress": "江苏省南京市玄武区中山路18号德基广场一期",
+  "unitNumber": "一期3楼L336"
+},
+{
+  "_id": {
+    "$oid": "68a572ed61c4491bb8c40d10"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a56989a68c10c59317a088"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "storeAddress": "江苏省南京市秦淮区汉中路89号南京金鹰国际购物中心",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T07:02:05.954Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T07:02:13.738Z"
+  },
+  "__v": 0,
+  "unitNumber": "A座一楼"
+},
+{
+  "_id": {
+    "$oid": "68a5730f61c4491bb8c40d49"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a56966c9af418c617f677d"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "storeAddress": "江苏省南京市江宁区圣汤大道99号",
+  "unitNumber": "临时店店铺号3-1-01",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T07:02:39.121Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T07:02:39.121Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a5732d6f90bb9f0f335017"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a56948c9af418c617f676c"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "storeAddress": "江苏省南京市江宁区秣周东路",
+  "isOla": true,
+  "unitNumber": "12号",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T07:03:09.836Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T07:03:09.836Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a573466f90bb9f0f33502b"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a568d00e804a200dd4d719"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "storeAddress": "江苏省南京市建邺区江东中路345号南京国金中心商场",
+  "isOla": false,
+  "unitNumber": "L3-9&10",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T07:03:34.222Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T07:03:34.222Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a574f729e547d3eb9a3768"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a574626f90bb9f0f33506d"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae53"
+  },
+  "storeAddress": "江苏省无锡市新吴区锡勤路18号-28号",
+  "isOla": true,
+  "unitNumber": "A3-105店",
+  "isActive": true,
+  "phone": "0510-8273-1362",
+  "createdAt": {
+    "$date": "2025-08-20T07:10:47.823Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T07:12:13.272Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a5751529e547d3eb9a377c"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a574436f90bb9f0f335060"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae53"
+  },
+  "storeAddress": "江苏省无锡市梁溪区中山路343号无锡大东方百货",
+  "isOla": false,
+  "unitNumber": "A座L1 COACH",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T07:11:17.328Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T07:31:54.973Z"
+  },
+  "__v": 0,
+  "phone": "0510-8273-8359"
+},
+{
+  "_id": {
+    "$oid": "68a5752c29e547d3eb9a3790"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a573886f90bb9f0f335053"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae53"
+  },
+  "storeName": "",
+  "storeAddress": "江苏省无锡市江阴市人民中路18号江阴八佰伴人民中路店",
+  "isOla": false,
+  "isActive": true,
+  "phone": "0510-8688-0961",
+  "createdAt": {
+    "$date": "2025-08-20T07:11:40.320Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T07:45:58.840Z"
+  },
+  "__v": 0,
+  "unitNumber": "1F1002号店铺",
+  "district": {
+    "$oid": "68a282e76e1688af0d5cae5f"
+  }
+},
+{
+  "_id": {
+    "$oid": "68a5754229e547d3eb9a37bb"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a573766f90bb9f0f335046"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae53"
+  },
+  "storeAddress": "江苏省无锡市崇安区中山路168号无锡八佰伴商厦",
+  "isOla": false,
+  "unitNumber": "A座一层A127店",
+  "isActive": true,
+  "phone": "0510-8273-8359",
+  "createdAt": {
+    "$date": "2025-08-20T07:12:02.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T07:47:30.722Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a58279aff9b4c0d0be9376"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a57e6e8ad21a5fc256e55d"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae87"
+  },
+  "district": null,
+  "storeAddress": "江苏省苏州市工业园区旺墩路268号苏州久光百货",
+  "isOla": false,
+  "unitNumber": "1B-M15店",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T08:08:25.116Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T08:08:25.116Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a589d5aff9b4c0d0be9391"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a5812d8ad21a5fc256e5f3"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae87"
+  },
+  "district": {
+    "$oid": "68a282e76e1688af0d5cae95"
+  },
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T08:39:49.114Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T08:42:53.315Z"
+  },
+  "__v": 0,
+  "storeAddress": "江苏省张家港市杨舍镇河西路88号曼巴特购物广场",
+  "unitNumber": "一楼1127铺"
+},
+{
+  "_id": {
+    "$oid": "68a589d5aff9b4c0d0be9390"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a581168ad21a5fc256e5e5"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae87"
+  },
+  "district": null,
+  "storeAddress": "江苏省苏州市工业园区唯亭阳澄环路969号",
+  "isOla": true,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T08:39:49.114Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T08:51:52.205Z"
+  },
+  "__v": 0,
+  "unitNumber": "H10单元"
+},
+{
+  "_id": {
+    "$oid": "68a58a10aff9b4c0d0be93b0"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a57fda8ad21a5fc256e579"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae87"
+  },
+  "district": null,
+  "storeAddress": "江苏省苏州市虎丘区长江路211号苏州美罗百货商场",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T08:40:48.778Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T08:50:19.643Z"
+  },
+  "__v": 0,
+  "unitNumber": "1027店"
+},
+{
+  "_id": {
+    "$oid": "68a58a10aff9b4c0d0be93b1"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a5800c8ad21a5fc256e5b2"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae87"
+  },
+  "district": null,
+  "storeAddress": "江苏省苏州市平江区观前街245号美罗百货观前店",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T08:40:48.778Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T08:50:05.764Z"
+  },
+  "__v": 0,
+  "unitNumber": "南二楼#2032柜位"
+},
+{
+  "_id": {
+    "$oid": "68a58a10aff9b4c0d0be93b2"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a580ff8ad21a5fc256e5d7"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae87"
+  },
+  "district": null,
+  "storeAddress": "江苏省苏州市工业园区苏州中心",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T08:40:48.778Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T08:49:27.653Z"
+  },
+  "__v": 0,
+  "unitNumber": "北区1楼 A01-17"
+},
+{
+  "_id": {
+    "$oid": "68a58ebeaff9b4c0d0be94cd"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a57e848ad21a5fc256e56b"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae87"
+  },
+  "district": {
+    "$oid": "68a282e76e1688af0d5cae93"
+  },
+  "storeAddress": "江苏省苏州市常熟市方塔东街9号楼常熟八佰",
+  "isOla": false,
+  "unitNumber": "2032柜位",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T09:00:46.622Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T09:00:46.622Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a592f5aff9b4c0d0be9563"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a592a6aff9b4c0d0be9524"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5caedf"
+  },
+  "district": null,
+  "storeAddress": "江苏省扬州市广陵区汶河南路120号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T09:18:45.404Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T09:18:45.404Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a592f5aff9b4c0d0be9564"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a592c1aff9b4c0d0be9536"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5caeed"
+  },
+  "district": null,
+  "storeAddress": "江苏省镇江市京口区中山东路288号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T09:18:45.404Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T09:18:45.404Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a59304aff9b4c0d0be957d"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a5925eaff9b4c0d0be9505"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae9b"
+  },
+  "district": null,
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T09:19:00.083Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T09:20:59.476Z"
+  },
+  "__v": 0,
+  "storeAddress": "江苏省南通市崇川区唐闸镇街道北大街111号",
+  "unitNumber": "1楼L112&113铺位"
+},
+{
+  "_id": {
+    "$oid": "68a59304aff9b4c0d0be957c"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a59254aff9b4c0d0be94f7"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae9b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南通市崇川区人民中路47号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T09:19:00.083Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T09:19:00.083Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a59304aff9b4c0d0be957e"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a59290aff9b4c0d0be9516"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5caecb"
+  },
+  "district": null,
+  "storeAddress": "江苏省盐城市亭湖区建军中路169号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T09:19:00.083Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T09:19:00.083Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a59344aff9b4c0d0be95ce"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a57e1d8ad21a5fc256e53d"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae79"
+  },
+  "district": null,
+  "storeAddress": "江苏省常州市天宁区延陵西路95-97号泰富百货商场",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T09:20:04.698Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T09:20:04.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a59344aff9b4c0d0be95cf"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a57e418ad21a5fc256e54f"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae79"
+  },
+  "district": null,
+  "storeAddress": "江苏省常州市新北区通江中路598号江南环球港商场",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T09:20:04.698Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T09:20:04.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a5950ab552a86739301708"
+  },
+  "brand": {
+    "$oid": "68a2c8e783192a4c2131ed23"
+  },
+  "mall": {
+    "$oid": "68a59445aff9b4c0d0be96d9"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5caefb"
+  },
+  "district": null,
+  "storeAddress": "江苏省泰州市海陵区东进东路18号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-20T09:27:38.615Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T09:27:38.615Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68abc6d3824d1e1853cd05f6"
+  },
+  "brand": {
+    "$oid": "68a2edab906514ea53afba27"
+  },
+  "mall": {
+    "$oid": "68a569aca68c10c59317a095"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南京市玄武区中山路18号德基广场一期",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-25T02:13:39.504Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-25T02:13:39.504Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68abc6ec824d1e1853cd0608"
+  },
+  "brand": {
+    "$oid": "68a2edab906514ea53afba27"
+  },
+  "mall": {
+    "$oid": "68a5800c8ad21a5fc256e5b2"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae87"
+  },
+  "district": null,
+  "storeAddress": "江苏省苏州市平江区观前街245号美罗百货观前店",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-25T02:14:04.463Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-25T02:14:04.463Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68ad6f3f4bf3870109616140"
+  },
+  "brand": {
+    "$oid": "68a2edab906514ea53afba27"
+  },
+  "mall": {
+    "$oid": "68a568d00e804a200dd4d719"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南京市建邺区江东中路345号南京国金中心商场",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-26T08:24:31.313Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-26T08:24:31.313Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68ad75797d1c0ba02880deee"
+  },
+  "brand": {
+    "$oid": "68a2edab906514ea53afba27"
+  },
+  "mall": {
+    "$oid": "68ad756f7d1c0ba02880dea2"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae53"
+  },
+  "district": null,
+  "storeAddress": "梁溪区人民中路139号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-26T08:51:05.568Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-26T08:51:05.568Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68aea18b1a20fd75df5796de"
+  },
+  "brand": {
+    "$oid": "68ae9a751a20fd75df57965e"
+  },
+  "mall": {
+    "$oid": "689ef86b353e0c9323bfb857"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae63"
+  },
+  "district": null,
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-27T06:11:23.529Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-27T06:11:23.529Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68aea18b1a20fd75df5796df"
+  },
+  "brand": {
+    "$oid": "68ae9a751a20fd75df57965e"
+  },
+  "mall": {
+    "$oid": "68a569aca68c10c59317a095"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南京市玄武区中山路18号德基广场一期",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-27T06:11:23.529Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-27T06:11:23.529Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68aea18b1a20fd75df5796e0"
+  },
+  "brand": {
+    "$oid": "68ae9a751a20fd75df57965e"
+  },
+  "mall": {
+    "$oid": "68a580ff8ad21a5fc256e5d7"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae87"
+  },
+  "district": null,
+  "storeAddress": "江苏省苏州市工业园区苏州中心北区",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-27T06:11:23.529Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-27T06:11:23.529Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b01085b7b889aa8d012765"
+  },
+  "brand": {
+    "$oid": "68aeb87b1a20fd75df5798f0"
+  },
+  "mall": {
+    "$oid": "68a568d00e804a200dd4d719"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南京市建邺区江东中路345号南京国金中心商场",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T08:17:09.495Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T08:17:09.495Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b01085b7b889aa8d012766"
+  },
+  "brand": {
+    "$oid": "68aeb87b1a20fd75df5798f0"
+  },
+  "mall": {
+    "$oid": "68a569aca68c10c59317a095"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南京市玄武区中山路18号德基广场一期",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T08:17:09.496Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T08:17:09.496Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b01092b7b889aa8d01277c"
+  },
+  "brand": {
+    "$oid": "68aeb8501a20fd75df5798a7"
+  },
+  "mall": {
+    "$oid": "68a569aca68c10c59317a095"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南京市玄武区中山路18号德基广场一期",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T08:17:22.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T08:17:22.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b01092b7b889aa8d01277b"
+  },
+  "brand": {
+    "$oid": "68aeb8501a20fd75df5798a7"
+  },
+  "mall": {
+    "$oid": "68a568d00e804a200dd4d719"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南京市建邺区江东中路345号南京国金中心商场",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T08:17:22.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T08:17:22.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b010b0b7b889aa8d012792"
+  },
+  "brand": {
+    "$oid": "68aeb7dc1a20fd75df579840"
+  },
+  "mall": {
+    "$oid": "68a5800c8ad21a5fc256e5b2"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae87"
+  },
+  "district": null,
+  "storeAddress": "江苏省苏州市平江区观前街245号美罗百货观前店",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T08:17:52.943Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T08:17:52.943Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b010b0b7b889aa8d012793"
+  },
+  "brand": {
+    "$oid": "68aeb7dc1a20fd75df579840"
+  },
+  "mall": {
+    "$oid": "68ad756f7d1c0ba02880dea2"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae53"
+  },
+  "district": null,
+  "storeAddress": "梁溪区人民中路139号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T08:17:52.944Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T08:17:52.944Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b010b0b7b889aa8d012791"
+  },
+  "brand": {
+    "$oid": "68aeb7dc1a20fd75df579840"
+  },
+  "mall": {
+    "$oid": "68a569aca68c10c59317a095"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南京市玄武区中山路18号德基广场一期",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T08:17:52.943Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T08:17:52.943Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b01170b7b889aa8d012818"
+  },
+  "brand": {
+    "$oid": "68aeb7ca1a20fd75df579820"
+  },
+  "mall": {
+    "$oid": "68a569aca68c10c59317a095"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南京市玄武区中山路18号德基广场一期",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T08:21:04.403Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T08:21:04.403Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b01170b7b889aa8d012817"
+  },
+  "brand": {
+    "$oid": "68aeb7ca1a20fd75df579820"
+  },
+  "mall": {
+    "$oid": "68a568d00e804a200dd4d719"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南京市建邺区江东中路345号南京国金中心商场",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T08:21:04.403Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T08:21:04.403Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b01170b7b889aa8d012819"
+  },
+  "brand": {
+    "$oid": "68aeb7ca1a20fd75df579820"
+  },
+  "mall": {
+    "$oid": "68a5800c8ad21a5fc256e5b2"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae87"
+  },
+  "district": null,
+  "storeAddress": "江苏省苏州市平江区观前街245号美罗百货观前店",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T08:21:04.403Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T08:21:04.403Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b012b7b7b889aa8d01282f"
+  },
+  "brand": {
+    "$oid": "68a2ccffed3188f703c185d3"
+  },
+  "mall": {
+    "$oid": "68a568d00e804a200dd4d719"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南京市建邺区江东中路345号南京国金中心商场",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T08:26:31.633Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T08:26:31.633Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b012b7b7b889aa8d012830"
+  },
+  "brand": {
+    "$oid": "68a2ccffed3188f703c185d3"
+  },
+  "mall": {
+    "$oid": "68a569aca68c10c59317a095"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南京市玄武区中山路18号德基广场一期",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T08:26:31.633Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T08:26:31.633Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b012b7b7b889aa8d012831"
+  },
+  "brand": {
+    "$oid": "68a2ccffed3188f703c185d3"
+  },
+  "mall": {
+    "$oid": "68a5800c8ad21a5fc256e5b2"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae87"
+  },
+  "district": null,
+  "storeAddress": "江苏省苏州市平江区观前街245号美罗百货观前店",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T08:26:31.633Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T08:26:31.633Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b012b7b7b889aa8d012832"
+  },
+  "brand": {
+    "$oid": "68a2ccffed3188f703c185d3"
+  },
+  "mall": {
+    "$oid": "68ad756f7d1c0ba02880dea2"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae53"
+  },
+  "district": null,
+  "storeAddress": "梁溪区人民中路139号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T08:26:31.633Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T08:26:31.633Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b01e92b7b889aa8d024ae6"
+  },
+  "brand": {
+    "$oid": "68ae98431a20fd75df579561"
+  },
+  "mall": {
+    "$oid": "68a569aca68c10c59317a095"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南京市玄武区中山路18号德基广场一期",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T09:17:06.154Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T09:17:06.154Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b01e92b7b889aa8d024ae7"
+  },
+  "brand": {
+    "$oid": "68ae98431a20fd75df579561"
+  },
+  "mall": {
+    "$oid": "68a580ff8ad21a5fc256e5d7"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae87"
+  },
+  "district": null,
+  "storeAddress": "江苏省苏州市工业园区苏州中心北区",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T09:17:06.154Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T09:17:06.154Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b01e92b7b889aa8d024ae5"
+  },
+  "brand": {
+    "$oid": "68ae98431a20fd75df579561"
+  },
+  "mall": {
+    "$oid": "68a568d00e804a200dd4d719"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南京市建邺区江东中路345号南京国金中心商场",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T09:17:06.154Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T09:17:06.154Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b01e92b7b889aa8d024ae4"
+  },
+  "brand": {
+    "$oid": "68ae98431a20fd75df579561"
+  },
+  "mall": {
+    "$oid": "68a2daa633613282ae1a5148"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae63"
+  },
+  "district": null,
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T09:17:06.154Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T09:17:06.154Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b01e92b7b889aa8d024ae9"
+  },
+  "brand": {
+    "$oid": "68ae98431a20fd75df579561"
+  },
+  "mall": {
+    "$oid": "68a5925eaff9b4c0d0be9505"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae9b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南通市崇川区唐闸镇街道北大街111号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T09:17:06.154Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T09:17:06.154Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b01e92b7b889aa8d024ae8"
+  },
+  "brand": {
+    "$oid": "68ae98431a20fd75df579561"
+  },
+  "mall": {
+    "$oid": "68a581168ad21a5fc256e5e5"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae87"
+  },
+  "district": null,
+  "storeAddress": "江苏省苏州市工业园区唯亭阳澄环路969号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-28T09:17:06.154Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-28T09:17:06.154Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b556e8b7b889aa8d053d8d"
+  },
+  "brand": {
+    "$oid": "68aeb7ca1a20fd75df579820"
+  },
+  "mall": {
+    "$oid": "68ad756f7d1c0ba02880dea2"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae53"
+  },
+  "district": null,
+  "storeAddress": "梁溪区人民中路139号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-01T08:18:48.972Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-01T08:18:48.972Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b55799b7b889aa8d053da5"
+  },
+  "brand": {
+    "$oid": "68ae9a751a20fd75df57965e"
+  },
+  "mall": {
+    "$oid": "68a581168ad21a5fc256e5e5"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae87"
+  },
+  "district": null,
+  "storeAddress": "江苏省苏州市工业园区唯亭阳澄环路969号",
+  "isOla": true,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-01T08:21:45.558Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-01T08:21:45.558Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b557a2b7b889aa8d053db7"
+  },
+  "brand": {
+    "$oid": "68ae9a751a20fd75df57965e"
+  },
+  "mall": {
+    "$oid": "68a574626f90bb9f0f33506d"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae53"
+  },
+  "district": null,
+  "storeAddress": "江苏省无锡市新吴区锡勤路18号-28号",
+  "isOla": true,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-01T08:21:54.059Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-01T08:21:54.059Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b557cfb7b889aa8d053dc9"
+  },
+  "brand": {
+    "$oid": "68ae9a751a20fd75df57965e"
+  },
+  "mall": {
+    "$oid": "68a568d00e804a200dd4d719"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南京市建邺区江东中路345号南京国金中心商场",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-01T08:22:39.611Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-01T08:22:39.611Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b557cfb7b889aa8d053dca"
+  },
+  "brand": {
+    "$oid": "68ae9a751a20fd75df57965e"
+  },
+  "mall": {
+    "$oid": "68a56989a68c10c59317a088"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "江苏省南京市秦淮区汉中路89号南京金鹰国际购物中心",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-01T08:22:39.611Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-01T08:22:39.611Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b557cfb7b889aa8d053dcb"
+  },
+  "brand": {
+    "$oid": "68ae9a751a20fd75df57965e"
+  },
+  "mall": {
+    "$oid": "68b54eb5b7b889aa8d04cdcf"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-01T08:22:39.611Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-01T08:25:13.634Z"
+  },
+  "__v": 0,
+  "storeAddress": "南京万象天地"
+},
+{
+  "_id": {
+    "$oid": "68b5586eb7b889aa8d05ae31"
+  },
+  "brand": {
+    "$oid": "68ae9a751a20fd75df57965e"
+  },
+  "mall": {
+    "$oid": "68b55842b7b889aa8d05add9"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "南京河西金鹰",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-01T08:25:18.341Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-01T08:25:18.341Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b5587eb7b889aa8d05ae56"
+  },
+  "brand": {
+    "$oid": "68ae9a751a20fd75df57965e"
+  },
+  "mall": {
+    "$oid": "68b55814b7b889aa8d05ad8e"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "storeAddress": "南京汤山百联奥莱",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-01T08:25:34.139Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-01T08:25:34.139Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68ba79922156c2d3e6fb63b8"
+  },
+  "brand": {
+    "$oid": "68aeb87b1a20fd75df5798f0"
+  },
+  "mall": {
+    "$oid": "68ad756f7d1c0ba02880dea2"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae53"
+  },
+  "district": null,
+  "storeAddress": "梁溪区人民中路139号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-05T05:48:02.711Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-05T05:48:02.711Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffba2722a0b3fc54efe35"
+  },
+  "brand": {
+    "$oid": "68bffad3722a0b3fc54e3a87"
+  },
+  "mall": {
+    "$oid": "68a2daa633613282ae1a5148"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae63"
+  },
+  "district": null,
+  "score": 0,
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffba2722a0b3fc54efe36"
+  },
+  "brand": {
+    "$oid": "68bffad3722a0b3fc54e3a87"
+  },
+  "mall": {
+    "$oid": "68a56989a68c10c59317a088"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "score": 0,
+  "storeAddress": "江苏省南京市秦淮区汉中路89号南京金鹰国际购物中心",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffba2722a0b3fc54efe38"
+  },
+  "brand": {
+    "$oid": "68bffad3722a0b3fc54e3a87"
+  },
+  "mall": {
+    "$oid": "68a574436f90bb9f0f335060"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae53"
+  },
+  "district": null,
+  "score": 0,
+  "storeAddress": "江苏省无锡市梁溪区中山路343号无锡大东方百货",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffba2722a0b3fc54efe3a"
+  },
+  "brand": {
+    "$oid": "68bffad3722a0b3fc54e3a87"
+  },
+  "mall": {
+    "$oid": "68a59290aff9b4c0d0be9516"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5caecb"
+  },
+  "district": null,
+  "score": 0,
+  "storeAddress": "江苏省盐城市亭湖区建军中路169号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffba2722a0b3fc54efe3b"
+  },
+  "brand": {
+    "$oid": "68bffad3722a0b3fc54e3a87"
+  },
+  "mall": {
+    "$oid": "68a592c1aff9b4c0d0be9536"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5caeed"
+  },
+  "district": null,
+  "score": 0,
+  "storeAddress": "江苏省镇江市京口区中山东路288号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffba2722a0b3fc54efe37"
+  },
+  "brand": {
+    "$oid": "68bffad3722a0b3fc54e3a87"
+  },
+  "mall": {
+    "$oid": "68a569aca68c10c59317a095"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "score": 0,
+  "storeAddress": "江苏省南京市玄武区中山路18号德基广场一期",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffba2722a0b3fc54efe3c"
+  },
+  "brand": {
+    "$oid": "68bffad3722a0b3fc54e3a87"
+  },
+  "mall": {
+    "$oid": "68ad756f7d1c0ba02880dea2"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae53"
+  },
+  "district": null,
+  "score": 0,
+  "storeAddress": "梁溪区人民中路139号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffba2722a0b3fc54efe39"
+  },
+  "brand": {
+    "$oid": "68bffad3722a0b3fc54e3a87"
+  },
+  "mall": {
+    "$oid": "68a5925eaff9b4c0d0be9505"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae9b"
+  },
+  "district": null,
+  "score": 0,
+  "storeAddress": "江苏省南通市崇川区唐闸镇街道北大街111号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffba2722a0b3fc54efe3d"
+  },
+  "brand": {
+    "$oid": "68bffad3722a0b3fc54e3a87"
+  },
+  "mall": {
+    "$oid": "68b54eb5b7b889aa8d04cdcf"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "score": 0,
+  "storeAddress": "南京万象天地",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:04:18.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffba2722a0b3fc54efe3e"
+  },
+  "brand": {
+    "$oid": "68bffad3722a0b3fc54e3a87"
+  },
+  "mall": {
+    "$oid": "68b55842b7b889aa8d05add9"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "district": null,
+  "score": 0,
+  "storeAddress": "南京河西金鹰",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T10:04:18.183Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:04:18.183Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffba2722a0b3fc54efe3f"
+  },
+  "brand": {
+    "$oid": "68bffad3722a0b3fc54e3a87"
+  },
+  "mall": {
+    "$oid": "68bff50cd8997a65fab7f839"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5caefb"
+  },
+  "district": null,
+  "score": 0,
+  "storeAddress": "江苏省泰州市高港区凤凰街道永定东路399号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T10:04:18.183Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:04:18.183Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68bffbc6722a0b3fc54f6e3f"
+  },
+  "brand": {
+    "$oid": "68bffad3722a0b3fc54e3a87"
+  },
+  "mall": {
+    "$oid": "68bffbbd722a0b3fc54efe71"
+  },
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "city": {
+    "$oid": "68a282e76e1688af0d5caead"
+  },
+  "district": null,
+  "score": 0,
+  "storeAddress": "江苏省连云港市海州区通灌北路58号",
+  "isOla": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-09-09T10:04:54.799Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T10:04:54.799Z"
+  },
+  "__v": 0
+}]

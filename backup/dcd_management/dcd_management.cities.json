@@ -1,0 +1,7308 @@
+[{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca801"
+  },
+  "name": "北京市",
+  "code": "110000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7bd"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 16,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.271Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.875Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca823"
+  },
+  "name": "天津市",
+  "code": "120000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7bf"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 16,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.277Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.876Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca845"
+  },
+  "name": "石家庄市",
+  "code": "130100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.283Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.877Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca873"
+  },
+  "name": "唐山市",
+  "code": "130200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 14,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.291Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.878Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca891"
+  },
+  "name": "秦皇岛市",
+  "code": "130300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.296Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.879Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca8a1"
+  },
+  "name": "邯郸市",
+  "code": "130400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 18,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.299Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.879Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca8c7"
+  },
+  "name": "邢台市",
+  "code": "130500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 19,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.305Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.880Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca8ef"
+  },
+  "name": "保定市",
+  "code": "130600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 24,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.311Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.880Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca921"
+  },
+  "name": "张家口市",
+  "code": "130700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 16,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.320Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.881Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca943"
+  },
+  "name": "承德市",
+  "code": "130800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.326Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.881Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca95b"
+  },
+  "name": "沧州市",
+  "code": "130900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 16,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.330Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.882Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca97d"
+  },
+  "name": "廊坊市",
+  "code": "131000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.335Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.882Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca993"
+  },
+  "name": "衡水市",
+  "code": "131100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.338Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.883Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca9ab"
+  },
+  "name": "太原市",
+  "code": "140100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.341Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.883Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca9c1"
+  },
+  "name": "大同市",
+  "code": "140200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.344Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.884Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca9d7"
+  },
+  "name": "阳泉市",
+  "code": "140300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.348Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.884Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca9e3"
+  },
+  "name": "长治市",
+  "code": "140400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.349Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.885Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5ca9fd"
+  },
+  "name": "晋城市",
+  "code": "140500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.353Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.886Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caa0b"
+  },
+  "name": "朔州市",
+  "code": "140600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.356Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.886Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caa19"
+  },
+  "name": "晋中市",
+  "code": "140700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.358Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.887Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caa31"
+  },
+  "name": "运城市",
+  "code": "140800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.361Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.887Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caa4d"
+  },
+  "name": "忻州市",
+  "code": "140900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 14,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.364Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.887Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caa6b"
+  },
+  "name": "临汾市",
+  "code": "141000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 17,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.367Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.888Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caa8f"
+  },
+  "name": "吕梁市",
+  "code": "141100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.371Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.888Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caaab"
+  },
+  "name": "呼和浩特市",
+  "code": "150100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.374Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.889Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caabf"
+  },
+  "name": "包头市",
+  "code": "150200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.376Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.889Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caad3"
+  },
+  "name": "乌海市",
+  "code": "150300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.378Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.890Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caadb"
+  },
+  "name": "赤峰市",
+  "code": "150400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.379Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.890Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caaf5"
+  },
+  "name": "通辽市",
+  "code": "150500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.382Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.890Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cab07"
+  },
+  "name": "鄂尔多斯市",
+  "code": "150600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.384Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.891Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cab1b"
+  },
+  "name": "呼伦贝尔市",
+  "code": "150700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 14,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.387Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.891Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cab39"
+  },
+  "name": "巴彦淖尔市",
+  "code": "150800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.390Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.892Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cab49"
+  },
+  "name": "乌兰察布市",
+  "code": "150900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.392Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.892Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cab61"
+  },
+  "name": "兴安盟",
+  "code": "152200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.395Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.892Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cab6f"
+  },
+  "name": "锡林郭勒盟",
+  "code": "152500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.396Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.893Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cab89"
+  },
+  "name": "阿拉善盟",
+  "code": "152900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.399Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.893Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cab91"
+  },
+  "name": "沈阳市",
+  "code": "210100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.400Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.893Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cabad"
+  },
+  "name": "大连市",
+  "code": "210200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.403Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.894Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cabc3"
+  },
+  "name": "鞍山市",
+  "code": "210300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.405Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.894Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cabd3"
+  },
+  "name": "抚顺市",
+  "code": "210400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.408Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.894Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cabe3"
+  },
+  "name": "本溪市",
+  "code": "210500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.409Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cabf1"
+  },
+  "name": "丹东市",
+  "code": "210600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.411Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cabff"
+  },
+  "name": "锦州市",
+  "code": "210700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.412Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cac0f"
+  },
+  "name": "营口市",
+  "code": "210800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.414Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.896Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cac1d"
+  },
+  "name": "阜新市",
+  "code": "210900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.415Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.896Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cac2d"
+  },
+  "name": "辽阳市",
+  "code": "211000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.417Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.896Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cac3d"
+  },
+  "name": "盘锦市",
+  "code": "211100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.419Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.897Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cac47"
+  },
+  "name": "铁岭市",
+  "code": "211200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.420Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.897Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cac57"
+  },
+  "name": "朝阳市",
+  "code": "211300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.421Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.897Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cac67"
+  },
+  "name": "葫芦岛市",
+  "code": "211400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.423Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.898Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cac75"
+  },
+  "name": "长春市",
+  "code": "220100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.425Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.898Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cac8b"
+  },
+  "name": "吉林市",
+  "code": "220200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.427Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.899Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cac9f"
+  },
+  "name": "四平市",
+  "code": "220300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.429Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.899Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cacad"
+  },
+  "name": "辽源市",
+  "code": "220400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.430Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.899Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cacb7"
+  },
+  "name": "通化市",
+  "code": "220500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.431Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.900Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cacc7"
+  },
+  "name": "白山市",
+  "code": "220600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.432Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.900Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cacd5"
+  },
+  "name": "松原市",
+  "code": "220700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.434Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.900Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cace1"
+  },
+  "name": "白城市",
+  "code": "220800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.435Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.901Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caced"
+  },
+  "name": "延边朝鲜族自治州",
+  "code": "222400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7c9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.437Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.902Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cacff"
+  },
+  "name": "哈尔滨市",
+  "code": "230100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 18,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.438Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.903Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cad25"
+  },
+  "name": "齐齐哈尔市",
+  "code": "230200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 16,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.442Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.903Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cad47"
+  },
+  "name": "鸡西市",
+  "code": "230300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.446Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.903Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cad5b"
+  },
+  "name": "鹤岗市",
+  "code": "230400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.448Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.904Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cad6d"
+  },
+  "name": "双鸭山市",
+  "code": "230500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.449Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.904Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cad7f"
+  },
+  "name": "大庆市",
+  "code": "230600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.450Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.904Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cad93"
+  },
+  "name": "伊春市",
+  "code": "230700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 17,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.453Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.905Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cadb7"
+  },
+  "name": "佳木斯市",
+  "code": "230800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.456Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.905Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cadcd"
+  },
+  "name": "七台河市",
+  "code": "230900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.458Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.906Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cadd7"
+  },
+  "name": "牡丹江市",
+  "code": "231000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.459Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.906Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caded"
+  },
+  "name": "黑河市",
+  "code": "231100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.460Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.906Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cadfb"
+  },
+  "name": "绥化市",
+  "code": "231200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.462Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.907Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cae11"
+  },
+  "name": "大兴安岭地区",
+  "code": "232700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.463Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.907Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cae19"
+  },
+  "name": "上海市",
+  "code": "310000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cd"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 16,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.464Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.907Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cae3b"
+  },
+  "name": "南京市",
+  "code": "320100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.467Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.908Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cae53"
+  },
+  "name": "无锡市",
+  "code": "320200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.470Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.908Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cae63"
+  },
+  "name": "徐州市",
+  "code": "320300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.471Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.908Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cae79"
+  },
+  "name": "常州市",
+  "code": "320400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.473Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.909Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cae87"
+  },
+  "name": "苏州市",
+  "code": "320500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.474Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.909Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cae9b"
+  },
+  "name": "南通市",
+  "code": "320600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.476Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.909Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caead"
+  },
+  "name": "连云港市",
+  "code": "320700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.477Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.910Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caebb"
+  },
+  "name": "淮安市",
+  "code": "320800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.478Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.910Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caecb"
+  },
+  "name": "盐城市",
+  "code": "320900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.480Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.910Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caedf"
+  },
+  "name": "扬州市",
+  "code": "321000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.482Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.911Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caeed"
+  },
+  "name": "镇江市",
+  "code": "321100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.483Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.911Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caefb"
+  },
+  "name": "泰州市",
+  "code": "321200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.912Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caf09"
+  },
+  "name": "宿迁市",
+  "code": "321300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7cf"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.486Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.912Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caf15"
+  },
+  "name": "杭州市",
+  "code": "330100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.487Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.912Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caf31"
+  },
+  "name": "宁波市",
+  "code": "330200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.490Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.913Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caf47"
+  },
+  "name": "温州市",
+  "code": "330300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.492Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.913Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caf5f"
+  },
+  "name": "嘉兴市",
+  "code": "330400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.494Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.913Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caf6f"
+  },
+  "name": "湖州市",
+  "code": "330500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.495Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.914Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caf7b"
+  },
+  "name": "绍兴市",
+  "code": "330600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.496Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.914Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caf89"
+  },
+  "name": "金华市",
+  "code": "330700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.497Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.915Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caf9d"
+  },
+  "name": "衢州市",
+  "code": "330800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.499Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.915Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cafab"
+  },
+  "name": "舟山市",
+  "code": "330900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.500Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.915Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cafb5"
+  },
+  "name": "台州市",
+  "code": "331000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.501Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.916Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cafc9"
+  },
+  "name": "丽水市",
+  "code": "331100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.503Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.916Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cafdd"
+  },
+  "name": "合肥市",
+  "code": "340100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.504Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.916Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5caff1"
+  },
+  "name": "芜湖市",
+  "code": "340200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.505Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.917Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb003"
+  },
+  "name": "蚌埠市",
+  "code": "340300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.506Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.917Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb013"
+  },
+  "name": "淮南市",
+  "code": "340400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.508Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.917Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb023"
+  },
+  "name": "马鞍山市",
+  "code": "340500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.509Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.918Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb031"
+  },
+  "name": "淮北市",
+  "code": "340600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.511Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb03b"
+  },
+  "name": "铜陵市",
+  "code": "340700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.511Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb045"
+  },
+  "name": "安庆市",
+  "code": "340800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.512Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.920Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb05b"
+  },
+  "name": "黄山市",
+  "code": "341000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.514Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.920Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb06b"
+  },
+  "name": "滁州市",
+  "code": "341100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.515Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.921Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb07d"
+  },
+  "name": "阜阳市",
+  "code": "341200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.516Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.921Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb08f"
+  },
+  "name": "宿州市",
+  "code": "341300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.517Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.921Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb09b"
+  },
+  "name": "六安市",
+  "code": "341500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.519Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.922Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb0ab"
+  },
+  "name": "亳州市",
+  "code": "341600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.521Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.922Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb0b5"
+  },
+  "name": "池州市",
+  "code": "341700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.522Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.922Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb0bf"
+  },
+  "name": "宣城市",
+  "code": "341800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.523Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb0cf"
+  },
+  "name": "福州市",
+  "code": "350100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.524Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb0eb"
+  },
+  "name": "厦门市",
+  "code": "350200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.526Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb0f9"
+  },
+  "name": "莆田市",
+  "code": "350300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.527Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.925Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb105"
+  },
+  "name": "三明市",
+  "code": "350400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.528Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.925Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb11f"
+  },
+  "name": "泉州市",
+  "code": "350500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.530Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.926Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb139"
+  },
+  "name": "漳州市",
+  "code": "350600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.532Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.926Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb151"
+  },
+  "name": "南平市",
+  "code": "350700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.533Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.926Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb167"
+  },
+  "name": "龙岩市",
+  "code": "350800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.536Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.927Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb177"
+  },
+  "name": "宁德市",
+  "code": "350900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.539Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.927Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb18b"
+  },
+  "name": "南昌市",
+  "code": "360100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.540Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.927Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb19f"
+  },
+  "name": "景德镇市",
+  "code": "360200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.542Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.928Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb1a9"
+  },
+  "name": "萍乡市",
+  "code": "360300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.542Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.928Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb1b5"
+  },
+  "name": "九江市",
+  "code": "360400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.543Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.928Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb1d1"
+  },
+  "name": "新余市",
+  "code": "360500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.546Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.929Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb1d7"
+  },
+  "name": "鹰潭市",
+  "code": "360600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.546Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.929Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb1df"
+  },
+  "name": "赣州市",
+  "code": "360700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 18,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.547Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.929Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb205"
+  },
+  "name": "吉安市",
+  "code": "360800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.549Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.930Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb221"
+  },
+  "name": "宜春市",
+  "code": "360900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.552Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.930Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb237"
+  },
+  "name": "抚州市",
+  "code": "361000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.554Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.930Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb24f"
+  },
+  "name": "上饶市",
+  "code": "361100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.555Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.930Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb269"
+  },
+  "name": "济南市",
+  "code": "370100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.557Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.931Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb283"
+  },
+  "name": "青岛市",
+  "code": "370200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.559Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.931Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb299"
+  },
+  "name": "淄博市",
+  "code": "370300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.931Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb2ab"
+  },
+  "name": "枣庄市",
+  "code": "370400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.561Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.932Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb2b9"
+  },
+  "name": "东营市",
+  "code": "370500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.562Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.932Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb2c5"
+  },
+  "name": "烟台市",
+  "code": "370600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.563Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.932Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb2df"
+  },
+  "name": "潍坊市",
+  "code": "370700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.565Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.932Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb2f9"
+  },
+  "name": "济宁市",
+  "code": "370800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.567Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.933Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb311"
+  },
+  "name": "泰安市",
+  "code": "370900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.569Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.933Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb31f"
+  },
+  "name": "威海市",
+  "code": "371000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.570Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.934Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb329"
+  },
+  "name": "日照市",
+  "code": "371100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.570Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.934Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb333"
+  },
+  "name": "临沂市",
+  "code": "371300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.571Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.934Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb34d"
+  },
+  "name": "德州市",
+  "code": "371400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.573Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.935Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb365"
+  },
+  "name": "聊城市",
+  "code": "371500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.574Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.935Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb377"
+  },
+  "name": "滨州市",
+  "code": "371600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.576Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.936Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb387"
+  },
+  "name": "菏泽市",
+  "code": "371700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7d9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.577Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.936Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb39b"
+  },
+  "name": "郑州市",
+  "code": "410100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7db"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.578Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.936Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb3b5"
+  },
+  "name": "开封市",
+  "code": "410200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7db"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.580Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.937Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb3c9"
+  },
+  "name": "洛阳市",
+  "code": "410300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7db"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 15,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.581Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.937Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb3e9"
+  },
+  "name": "平顶山市",
+  "code": "410400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7db"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.583Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.937Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb3ff"
+  },
+  "name": "安阳市",
+  "code": "410500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7db"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.585Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.938Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb413"
+  },
+  "name": "鹤壁市",
+  "code": "410600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7db"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.586Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.938Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb41f"
+  },
+  "name": "新乡市",
+  "code": "410700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7db"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.587Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.938Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb439"
+  },
+  "name": "焦作市",
+  "code": "410800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7db"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.589Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.939Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb44f"
+  },
+  "name": "濮阳市",
+  "code": "410900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7db"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.591Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.939Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb45d"
+  },
+  "name": "许昌市",
+  "code": "411000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7db"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.592Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.939Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb46b"
+  },
+  "name": "漯河市",
+  "code": "411100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7db"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.593Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.939Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb477"
+  },
+  "name": "三门峡市",
+  "code": "411200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7db"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.593Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.940Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb485"
+  },
+  "name": "南阳市",
+  "code": "411300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7db"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.594Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.940Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb4a1"
+  },
+  "name": "商丘市",
+  "code": "411400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7db"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.596Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.940Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb4b5"
+  },
+  "name": "信阳市",
+  "code": "411500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7db"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.597Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.941Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb4cb"
+  },
+  "name": "周口市",
+  "code": "411600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7db"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.599Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.941Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb4e1"
+  },
+  "name": "驻马店市",
+  "code": "411700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7db"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.600Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.942Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb4f7"
+  },
+  "name": "武汉市",
+  "code": "420100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7dd"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.602Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.942Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb513"
+  },
+  "name": "黄石市",
+  "code": "420200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7dd"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.604Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.942Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb521"
+  },
+  "name": "十堰市",
+  "code": "420300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7dd"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.605Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.943Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb533"
+  },
+  "name": "宜昌市",
+  "code": "420500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7dd"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.607Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.943Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb54f"
+  },
+  "name": "襄阳市",
+  "code": "420600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7dd"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.609Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.943Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb563"
+  },
+  "name": "鄂州市",
+  "code": "420700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7dd"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.610Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.943Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb56b"
+  },
+  "name": "荆门市",
+  "code": "420800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7dd"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.611Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.944Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb577"
+  },
+  "name": "孝感市",
+  "code": "420900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7dd"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.612Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.944Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb587"
+  },
+  "name": "荆州市",
+  "code": "421000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7dd"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.613Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.944Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb599"
+  },
+  "name": "黄冈市",
+  "code": "421100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7dd"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.614Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.945Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb5af"
+  },
+  "name": "咸宁市",
+  "code": "421200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7dd"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.615Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.945Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb5bd"
+  },
+  "name": "随州市",
+  "code": "421300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7dd"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.616Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.946Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb5c5"
+  },
+  "name": "恩施土家族苗族自治州",
+  "code": "422800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7dd"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.617Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.946Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb5d7"
+  },
+  "name": "长沙市",
+  "code": "430100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7df"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.618Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.947Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb5eb"
+  },
+  "name": "株洲市",
+  "code": "430200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7df"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.619Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.947Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb5ff"
+  },
+  "name": "湘潭市",
+  "code": "430300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7df"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.621Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.947Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb60b"
+  },
+  "name": "衡阳市",
+  "code": "430400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7df"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.621Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.948Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb625"
+  },
+  "name": "邵阳市",
+  "code": "430500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7df"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.623Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.948Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb63f"
+  },
+  "name": "岳阳市",
+  "code": "430600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7df"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.625Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.948Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb653"
+  },
+  "name": "常德市",
+  "code": "430700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7df"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.626Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.949Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb667"
+  },
+  "name": "张家界市",
+  "code": "430800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7df"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.627Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.949Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb671"
+  },
+  "name": "益阳市",
+  "code": "430900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7df"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.628Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.949Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb67f"
+  },
+  "name": "郴州市",
+  "code": "431000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7df"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.629Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.950Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb697"
+  },
+  "name": "永州市",
+  "code": "431100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7df"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.630Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.950Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb6af"
+  },
+  "name": "怀化市",
+  "code": "431200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7df"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.632Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.950Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb6c9"
+  },
+  "name": "娄底市",
+  "code": "431300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7df"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.635Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.951Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb6d5"
+  },
+  "name": "湘西土家族苗族自治州",
+  "code": "433100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7df"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.636Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.952Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb6e7"
+  },
+  "name": "广州市",
+  "code": "440100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.638Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.952Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb6ff"
+  },
+  "name": "韶关市",
+  "code": "440200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.639Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.953Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb715"
+  },
+  "name": "深圳市",
+  "code": "440300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.640Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.953Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb729"
+  },
+  "name": "珠海市",
+  "code": "440400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.642Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.953Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb731"
+  },
+  "name": "汕头市",
+  "code": "440500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.642Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.954Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb741"
+  },
+  "name": "佛山市",
+  "code": "440600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.643Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.954Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb74d"
+  },
+  "name": "江门市",
+  "code": "440700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.644Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.955Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb75d"
+  },
+  "name": "湛江市",
+  "code": "440800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.645Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.956Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb771"
+  },
+  "name": "茂名市",
+  "code": "440900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.646Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.956Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb77d"
+  },
+  "name": "肇庆市",
+  "code": "441200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.647Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.956Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb78f"
+  },
+  "name": "惠州市",
+  "code": "441300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.648Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.957Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb79b"
+  },
+  "name": "梅州市",
+  "code": "441400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.649Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.957Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb7ad"
+  },
+  "name": "汕尾市",
+  "code": "441500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.650Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.958Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb7b7"
+  },
+  "name": "河源市",
+  "code": "441600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.651Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.958Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb7c5"
+  },
+  "name": "阳江市",
+  "code": "441700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.652Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.959Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb7cf"
+  },
+  "name": "清远市",
+  "code": "441800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.653Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.959Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb7e1"
+  },
+  "name": "东莞市",
+  "code": "441900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.654Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.654Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb7e3"
+  },
+  "name": "中山市",
+  "code": "442000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.654Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.654Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb7e5"
+  },
+  "name": "潮州市",
+  "code": "445100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.654Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.959Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb7ed"
+  },
+  "name": "揭阳市",
+  "code": "445200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.655Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.960Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb7f9"
+  },
+  "name": "云浮市",
+  "code": "445300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.656Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.960Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb805"
+  },
+  "name": "南宁市",
+  "code": "450100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.656Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.960Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb81f"
+  },
+  "name": "柳州市",
+  "code": "450200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.658Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.961Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb835"
+  },
+  "name": "桂林市",
+  "code": "450300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 17,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.660Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.961Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb859"
+  },
+  "name": "梧州市",
+  "code": "450400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.662Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.961Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb869"
+  },
+  "name": "北海市",
+  "code": "450500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.663Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.962Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb873"
+  },
+  "name": "防城港市",
+  "code": "450600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.663Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.962Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb87d"
+  },
+  "name": "钦州市",
+  "code": "450700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.664Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.962Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb887"
+  },
+  "name": "贵港市",
+  "code": "450800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.664Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.963Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb893"
+  },
+  "name": "玉林市",
+  "code": "450900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.665Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.963Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb8a3"
+  },
+  "name": "百色市",
+  "code": "451000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.666Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.963Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb8bd"
+  },
+  "name": "贺州市",
+  "code": "451100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.668Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.964Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb8c9"
+  },
+  "name": "河池市",
+  "code": "451200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.669Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.964Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb8e1"
+  },
+  "name": "来宾市",
+  "code": "451300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.671Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.964Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb8ef"
+  },
+  "name": "崇左市",
+  "code": "451400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.672Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.965Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb8ff"
+  },
+  "name": "海口市",
+  "code": "460100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.673Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.965Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb909"
+  },
+  "name": "三亚市",
+  "code": "460200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.673Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.965Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb913"
+  },
+  "name": "三沙市",
+  "code": "460300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.674Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.965Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb91d"
+  },
+  "name": "儋州市",
+  "code": "460400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.675Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb91f"
+  },
+  "name": "重庆市",
+  "code": "500000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 38,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.675Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.966Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb96d"
+  },
+  "name": "成都市",
+  "code": "510100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 20,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.681Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.966Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb997"
+  },
+  "name": "自贡市",
+  "code": "510300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.683Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.967Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb9a5"
+  },
+  "name": "攀枝花市",
+  "code": "510400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.684Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.967Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb9b1"
+  },
+  "name": "泸州市",
+  "code": "510500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.685Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.967Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb9c1"
+  },
+  "name": "德阳市",
+  "code": "510600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.688Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.968Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb9cf"
+  },
+  "name": "绵阳市",
+  "code": "510700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.700Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.969Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb9e3"
+  },
+  "name": "广元市",
+  "code": "510800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.712Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.969Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb9f3"
+  },
+  "name": "遂宁市",
+  "code": "510900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.718Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.969Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cb9ff"
+  },
+  "name": "内江市",
+  "code": "511000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.720Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.970Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cba0b"
+  },
+  "name": "乐山市",
+  "code": "511100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.721Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.971Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cba23"
+  },
+  "name": "南充市",
+  "code": "511300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.722Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.971Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cba37"
+  },
+  "name": "眉山市",
+  "code": "511400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.724Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.971Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cba45"
+  },
+  "name": "宜宾市",
+  "code": "511500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.726Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.972Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cba5b"
+  },
+  "name": "广安市",
+  "code": "511600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.730Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.972Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cba69"
+  },
+  "name": "达州市",
+  "code": "511700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.731Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.973Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cba79"
+  },
+  "name": "雅安市",
+  "code": "511800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.732Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.973Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cba8b"
+  },
+  "name": "巴中市",
+  "code": "511900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.734Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.973Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cba97"
+  },
+  "name": "资阳市",
+  "code": "512000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.735Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.974Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cba9f"
+  },
+  "name": "阿坝藏族羌族自治州",
+  "code": "513200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.736Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.974Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbabb"
+  },
+  "name": "甘孜藏族自治州",
+  "code": "513300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 18,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.738Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.974Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbae1"
+  },
+  "name": "凉山彝族自治州",
+  "code": "513400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7e9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 17,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.741Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.975Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbb05"
+  },
+  "name": "贵阳市",
+  "code": "520100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7eb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.975Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbb1b"
+  },
+  "name": "六盘水市",
+  "code": "520200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7eb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.975Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbb25"
+  },
+  "name": "遵义市",
+  "code": "520300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7eb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 14,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.746Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.975Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbb43"
+  },
+  "name": "安顺市",
+  "code": "520400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7eb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.748Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.976Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbb51"
+  },
+  "name": "毕节市",
+  "code": "520500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7eb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.748Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.976Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbb63"
+  },
+  "name": "铜仁市",
+  "code": "520600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7eb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.749Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.976Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbb79"
+  },
+  "name": "黔西南布依族苗族自治州",
+  "code": "522300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7eb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.751Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.977Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbb8b"
+  },
+  "name": "黔东南苗族侗族自治州",
+  "code": "522600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7eb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 16,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.753Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.977Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbbad"
+  },
+  "name": "黔南布依族苗族自治州",
+  "code": "522700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7eb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.756Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.977Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbbc7"
+  },
+  "name": "昆明市",
+  "code": "530100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ed"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 14,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.757Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.978Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbbe5"
+  },
+  "name": "曲靖市",
+  "code": "530300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ed"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.759Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.978Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbbf9"
+  },
+  "name": "玉溪市",
+  "code": "530400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ed"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.760Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.978Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbc0d"
+  },
+  "name": "保山市",
+  "code": "530500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ed"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.761Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.979Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbc19"
+  },
+  "name": "昭通市",
+  "code": "530600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ed"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.763Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.979Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbc31"
+  },
+  "name": "丽江市",
+  "code": "530700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ed"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.764Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.979Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbc3d"
+  },
+  "name": "普洱市",
+  "code": "530800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ed"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.765Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.980Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbc53"
+  },
+  "name": "临沧市",
+  "code": "530900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ed"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.766Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.980Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbc65"
+  },
+  "name": "楚雄彝族自治州",
+  "code": "532300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ed"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.767Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.980Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbc7b"
+  },
+  "name": "红河哈尼族彝族自治州",
+  "code": "532500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ed"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.981Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbc97"
+  },
+  "name": "文山壮族苗族自治州",
+  "code": "532600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ed"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.981Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbca9"
+  },
+  "name": "西双版纳傣族自治州",
+  "code": "532800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ed"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.981Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbcb1"
+  },
+  "name": "大理白族自治州",
+  "code": "532900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ed"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.982Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbccb"
+  },
+  "name": "德宏傣族景颇族自治州",
+  "code": "533100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ed"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.982Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbcd7"
+  },
+  "name": "怒江傈僳族自治州",
+  "code": "533300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ed"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.982Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbce1"
+  },
+  "name": "迪庆藏族自治州",
+  "code": "533400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ed"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.776Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.983Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbce9"
+  },
+  "name": "拉萨市",
+  "code": "540100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ef"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.776Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.983Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbcfb"
+  },
+  "name": "日喀则市",
+  "code": "540200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ef"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 18,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.778Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.983Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbd21"
+  },
+  "name": "昌都市",
+  "code": "540300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ef"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.780Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.984Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbd39"
+  },
+  "name": "林芝市",
+  "code": "540400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ef"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.781Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.985Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbd49"
+  },
+  "name": "山南市",
+  "code": "540500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ef"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.782Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.985Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbd63"
+  },
+  "name": "那曲市",
+  "code": "540600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ef"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.783Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.986Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbd7b"
+  },
+  "name": "阿里地区",
+  "code": "542500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ef"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.786Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.986Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbd8b"
+  },
+  "name": "西安市",
+  "code": "610100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.787Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.987Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbda7"
+  },
+  "name": "铜川市",
+  "code": "610200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.789Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.987Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbdb1"
+  },
+  "name": "宝鸡市",
+  "code": "610300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.790Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.987Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbdcb"
+  },
+  "name": "咸阳市",
+  "code": "610400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 14,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.791Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.988Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbde9"
+  },
+  "name": "渭南市",
+  "code": "610500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.793Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.988Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbe01"
+  },
+  "name": "延安市",
+  "code": "610600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.794Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.988Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbe1d"
+  },
+  "name": "汉中市",
+  "code": "610700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.796Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.989Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbe35"
+  },
+  "name": "榆林市",
+  "code": "610800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.797Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.989Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbe4f"
+  },
+  "name": "安康市",
+  "code": "610900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.799Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.989Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbe65"
+  },
+  "name": "商洛市",
+  "code": "611000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f1"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.800Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.990Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbe75"
+  },
+  "name": "兰州市",
+  "code": "620100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.801Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.990Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbe87"
+  },
+  "name": "嘉峪关市",
+  "code": "620200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.803Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.803Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbe89"
+  },
+  "name": "金昌市",
+  "code": "620300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.803Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.991Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbe8f"
+  },
+  "name": "白银市",
+  "code": "620400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.803Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.991Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbe9b"
+  },
+  "name": "天水市",
+  "code": "620500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.804Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.991Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbeab"
+  },
+  "name": "武威市",
+  "code": "620600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.992Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbeb5"
+  },
+  "name": "张掖市",
+  "code": "620700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.806Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.992Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbec3"
+  },
+  "name": "平凉市",
+  "code": "620800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.992Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbed3"
+  },
+  "name": "酒泉市",
+  "code": "620900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.992Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbee3"
+  },
+  "name": "庆阳市",
+  "code": "621000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.809Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.993Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbef5"
+  },
+  "name": "定西市",
+  "code": "621100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.810Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.993Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbf05"
+  },
+  "name": "陇南市",
+  "code": "621200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.811Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.993Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbf19"
+  },
+  "name": "临夏回族自治州",
+  "code": "622900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.812Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.993Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbf2b"
+  },
+  "name": "甘南藏族自治州",
+  "code": "623000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f3"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.813Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.994Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbf3d"
+  },
+  "name": "西宁市",
+  "code": "630100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.814Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.994Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbf4d"
+  },
+  "name": "海东市",
+  "code": "630200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.815Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.994Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbf5b"
+  },
+  "name": "海北藏族自治州",
+  "code": "632200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.816Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.995Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbf65"
+  },
+  "name": "黄南藏族自治州",
+  "code": "632300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.817Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.995Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbf6f"
+  },
+  "name": "海南藏族自治州",
+  "code": "632500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.818Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.995Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbf7b"
+  },
+  "name": "果洛藏族自治州",
+  "code": "632600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.819Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.995Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbf89"
+  },
+  "name": "玉树藏族自治州",
+  "code": "632700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.819Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.996Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbf97"
+  },
+  "name": "海西蒙古族藏族自治州",
+  "code": "632800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f5"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.820Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.996Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbfa5"
+  },
+  "name": "银川市",
+  "code": "640100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.821Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.996Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbfb3"
+  },
+  "name": "石嘴山市",
+  "code": "640200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.822Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.996Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbfbb"
+  },
+  "name": "吴忠市",
+  "code": "640300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.822Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.997Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbfc7"
+  },
+  "name": "固原市",
+  "code": "640400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.823Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.997Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbfd3"
+  },
+  "name": "中卫市",
+  "code": "640500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f7"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.824Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.997Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbfdb"
+  },
+  "name": "乌鲁木齐市",
+  "code": "650100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.824Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.997Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbfed"
+  },
+  "name": "克拉玛依市",
+  "code": "650200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.825Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.998Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbff7"
+  },
+  "name": "吐鲁番市",
+  "code": "650400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.826Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.998Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cbfff"
+  },
+  "name": "哈密市",
+  "code": "650500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.826Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.998Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc007"
+  },
+  "name": "昌吉回族自治州",
+  "code": "652300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.827Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.998Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc017"
+  },
+  "name": "博尔塔拉蒙古自治州",
+  "code": "652700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.828Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.999Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc021"
+  },
+  "name": "巴音郭楞蒙古自治州",
+  "code": "652800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.829Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.999Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc035"
+  },
+  "name": "阿克苏地区",
+  "code": "652900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.830Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.999Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc049"
+  },
+  "name": "克孜勒苏柯尔克孜自治州",
+  "code": "653000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.831Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:27.999Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc053"
+  },
+  "name": "喀什地区",
+  "code": "653100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.832Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:28.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc06d"
+  },
+  "name": "和田地区",
+  "code": "653200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.834Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:28.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc07f"
+  },
+  "name": "伊犁哈萨克自治州",
+  "code": "654000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.835Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:28.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc097"
+  },
+  "name": "塔城地区",
+  "code": "654200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.837Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:28.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc0a7"
+  },
+  "name": "阿勒泰地区",
+  "code": "654300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7f9"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.838Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:28.001Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc0b7"
+  },
+  "name": "香港特别行政区",
+  "code": "810000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7fd"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 18,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.839Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:28.001Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc0dd"
+  },
+  "name": "澳门特别行政区",
+  "code": "820000",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7ff"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.841Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:28.001Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc0f1"
+  },
+  "name": "台北市",
+  "code": "830100",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7fb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.842Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:28.002Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc10b"
+  },
+  "name": "新北市",
+  "code": "830200",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7fb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 29,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.844Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:28.002Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc147"
+  },
+  "name": "桃园市",
+  "code": "830300",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7fb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.847Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:28.002Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc163"
+  },
+  "name": "台中市",
+  "code": "830400",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7fb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 29,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.849Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:28.003Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc19f"
+  },
+  "name": "台南市",
+  "code": "830500",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7fb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 37,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.854Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:28.003Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc1eb"
+  },
+  "name": "高雄市",
+  "code": "830600",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7fb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 37,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.858Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:28.003Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc237"
+  },
+  "name": "基隆市",
+  "code": "830700",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7fb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.863Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:28.004Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc247"
+  },
+  "name": "新竹市",
+  "code": "830800",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7fb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.864Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:28.004Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a282e76e1688af0d5cc24f"
+  },
+  "name": "嘉义市",
+  "code": "830900",
+  "province": {
+    "$oid": "68a282e76e1688af0d5ca7fb"
+  },
+  "brandCount": 0,
+  "mallCount": 0,
+  "districtCount": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-18T01:33:27.864Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-18T01:33:28.004Z"
+  },
+  "__v": 0
+}]

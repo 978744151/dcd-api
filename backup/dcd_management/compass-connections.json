@@ -1,0 +1,44 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "627040ec-f044-4c17-8019-9595a5fb9395",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1756112469088"
+        }
+      },
+      "favorite": {
+        "name": "8.155.53.210:27017"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://chentao:suqichentao1@8.155.53.210:27017/admin",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjoxLCJzdGF0ZSI6W119"
+        }
+      }
+    },
+    {
+      "id": "e5715739-1d95-458a-9d8b-01de0712b67e",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1756112629763"
+        }
+      },
+      "favorite": {
+        "name": ""
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjoxLCJzdGF0ZSI6W119"
+        }
+      }
+    }
+  ]
+}

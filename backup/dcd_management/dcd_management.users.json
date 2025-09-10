@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "689eac3440899799a18aba69"
+  },
+  "username": "978744151@qq.com",
+  "email": "978744151@qq.com",
+  "password": "$2a$10$tSlvbcfPXz5gQ.hktoOKf.qtNxKdEv6TiKFWQPa3eINzeWUbYOGei",
+  "role": "admin",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-08-15T03:40:36.818Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-05T05:34:08.295Z"
+  },
+  "__v": 0,
+  "lastLogin": {
+    "$date": "2025-09-05T05:34:08.293Z"
+  }
+}]
