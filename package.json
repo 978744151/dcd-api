@@ -1,0 +1,51 @@
+{
+  "name": "dcd-koa-backend",
+  "version": "1.0.0",
+  "description": "基于Koa和Node.js的后台管理系统",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "NODE_ENV=development nodemon app.js",
+    "prod": "NODE_ENV=production node app.js",
+    "test": "jest",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "init-db": "node scripts/init-db.js",
+    "init-provinces": "node scripts/init-provinces.js",
+    "init-provinces-clear": "node scripts/init-provinces.js --clear",
+    "init-cities": "node scripts/init-cities.js",
+    "init-cities-clear": "node scripts/init-cities.js --clear"
+  },
+  "keywords": [
+    "koa",
+    "nodejs",
+    "backend",
+    "management",
+    "react",
+    "antd"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-cors": "^0.0.16",
+    "koa-jwt": "^4.0.4",
+    "koa-mount": "^4.2.0",
+    "koa-router": "^12.0.0",
+    "koa-session": "^6.3.0",
+    "koa-static": "^5.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^7.5.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "nodemon": "^3.0.1"
+  }
+}
