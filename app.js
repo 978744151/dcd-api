@@ -7,7 +7,7 @@ const mount = require('koa-mount');
 const session = require('koa-session');
 // 启用 Gzip 压缩
 const compress = require('koa-compress')
-app.use(compress())
+
 const path = require('path');
 require('dotenv').config({ path: './config.env' });
 
@@ -32,7 +32,7 @@ console.log(`🗄️  数据库: ${MONGODB_URI}`);
 // 数据库连接
 const connectDB = require('./config/database');
 connectDB();
-
+app.use(compress())
 app.use(async (ctx, next) => {
   if (ctx.path.startsWith('/api/')) {
     ctx.set('Cache-Control', 'public, max-age=300') // 5分钟缓存
