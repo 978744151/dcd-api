@@ -13,6 +13,7 @@ require('dotenv').config({ path: './config.env' });
 
 const app = new Koa();
 const router = new Router();
+app.use(compress())
 
 // 根据环境变量设置配置
 const isProduction = process.env.NODE_ENV === 'production';
@@ -32,7 +33,6 @@ console.log(`🗄️  数据库: ${MONGODB_URI}`);
 // 数据库连接
 const connectDB = require('./config/database');
 connectDB();
-app.use(compress())
 app.use(async (ctx, next) => {
   if (ctx.path.startsWith('/api/')) {
     ctx.set('Cache-Control', 'public, max-age=300') // 5分钟缓存
