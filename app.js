@@ -14,7 +14,6 @@ require('dotenv').config({ path: './config.env' });
 const app = new Koa();
 const router = new Router();
 app.use(compress())
-
 // 根据环境变量设置配置
 const isProduction = process.env.NODE_ENV === 'production';
 const PORT = isProduction ? process.env.PROD_PORT : process.env.DEV_PORT;
@@ -109,12 +108,19 @@ const mapRoutes = require('./routes/map');
 const adminRoutes = require('./routes/admin');
 const mallRoutes = require('./routes/mall');
 const uploadRoutes = require('./routes/upload');
+const blogRoutes = require('./routes/blogs');
+const commentRoutes = require('./routes/comment');
+const followRoutes = require('./routes/follow');
+
 
 app.use(authRoutes.routes()).use(authRoutes.allowedMethods());
 app.use(mapRoutes.routes()).use(mapRoutes.allowedMethods());
 app.use(adminRoutes.routes()).use(adminRoutes.allowedMethods());
 app.use(mallRoutes.routes()).use(mallRoutes.allowedMethods());
 app.use(uploadRoutes.routes()).use(uploadRoutes.allowedMethods());
+app.use(commentRoutes.routes()).use(commentRoutes.allowedMethods());
+app.use(blogRoutes.routes()).use(blogRoutes.allowedMethods());
+app.use(followRoutes.routes()).use(followRoutes.allowedMethods());
 
 // 生产环境下静态托管前端构建产物，并提供 SPA 回退
 // const distDir = path.join(__dirname, 'client', 'dist');

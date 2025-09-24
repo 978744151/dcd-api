@@ -7,6 +7,9 @@ const BrandStore = require('../models/BrandStore');
 const Brand = require('../models/Brand');
 const Mall = require('../models/Mall');
 const Dictionary = require('../models/Dictionary');
+const NodeCache = require('node-cache');
+const treeCache = new NodeCache({ stdTTL: 600 }); // 10分钟缓存
+
 
 const router = new Router({
   prefix: '/api/map'
@@ -270,7 +273,7 @@ router.get('/districts', async (ctx) => {
 // 获取品牌数据
 router.get('/brands', async (ctx) => {
   try {
-    const { page = 1, limit = 0, provinceId, cityId, districtId, search } = ctx.query;
+    const { page = 1, limit = 0, provinceId, cityId, districtId, search, category } = ctx.query;
     const skip = (page - 1) * limit;
 
     // 列表模式
@@ -279,6 +282,7 @@ router.get('/brands', async (ctx) => {
     if (cityId) query.city = cityId;
     if (districtId) query.district = districtId;
     if (search) query.name = { $regex: search, $options: 'i' };
+    if (category) query.category = category;
 
     const brands = await Brand.find(query)
       .populate('province', 'name')
@@ -335,6 +339,7 @@ router.get('/brands', async (ctx) => {
       }
     };
   } catch (error) {
+    console.log(error)
     ctx.status = 500;
     ctx.body = {
       success: false,
@@ -394,6 +399,13 @@ router.get('/brands/detail', async (ctx) => {
 // 获取树形结构数据（省 -> 市 -> 区 -> 商场 -> 品牌）
 router.get('/tree', async (ctx) => {
   try {
+    const cacheKey = `tree_${JSON.stringify(ctx.query)}`;
+    const cachedData = treeCache.get(cacheKey);
+
+    if (cachedData) {
+      ctx.body = cachedData;
+      return;
+    }
     const { provinceId, cityId, districtId, search, brandId, level = 3 } = ctx.query;
     const queryLevel = parseInt(level);
 
@@ -652,6 +664,7 @@ router.get('/tree', async (ctx) => {
     }));
 
     ctx.body = { success: true, data: { provinces } };
+    treeCache.set(cacheKey, ctx.body);
   } catch (error) {
     ctx.status = 500;
     ctx.body = {

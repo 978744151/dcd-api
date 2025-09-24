@@ -25,21 +25,40 @@ const userSchema = new mongoose.Schema({
     enum: ['admin', 'user'],
     default: 'user'
   },
+  avatar: {
+    type: String,
+    required: [false, "请上传logo"],
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now,
+  },
   isActive: {
     type: Boolean,
     default: true
   },
   lastLogin: {
     type: Date
-  }
+  },
+  // 关注的用户
+  following: [{
+    type: mongoose.Schema.ObjectId,
+    ref: 'User'
+  }],
+
+  // 粉丝
+  followers: [{
+    type: mongoose.Schema.ObjectId,
+    ref: 'User'
+  }],
 }, {
   timestamps: true
 });
 
 // 密码加密中间件
-userSchema.pre('save', async function(next) {
+userSchema.pre('save', async function (next) {
   if (!this.isModified('password')) return next();
-  
+
   try {
     const salt = await bcrypt.genSalt(10);
     this.password = await bcrypt.hash(this.password, salt);
@@ -50,7 +69,7 @@ userSchema.pre('save', async function(next) {
 });
 
 // 密码验证方法
-userSchema.methods.comparePassword = async function(candidatePassword) {
+userSchema.methods.comparePassword = async function (candidatePassword) {
   return bcrypt.compare(candidatePassword, this.password);
 };
 

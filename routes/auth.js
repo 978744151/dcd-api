@@ -12,7 +12,7 @@ const registerSchema = Joi.object({
   username: Joi.string().min(3).max(30).required(),
   email: Joi.string().email().required(),
   password: Joi.string().min(6).required(),
-  role: Joi.string().valid('admin', 'user').default('user')
+  role: Joi.string().valid('admin', 'user').default('user'),
 });
 
 // 登录验证规则
@@ -20,7 +20,100 @@ const loginSchema = Joi.object({
   email: Joi.string().email().required(),
   password: Joi.string().required()
 });
-
+// 生成随机卡通头像
+const avatarStyles = ['adventurer', 'avataaars', 'big-ears', 'big-smile', 'glass', 'notionists-neutral', 'bottts', 'croodles', 'micah', 'miniavs', 'open-peeps', 'personas', 'pixel-art', 'fun-emoji', 'pixel-art-neutral'];
+const randomStyle = avatarStyles[Math.floor(Math.random() * avatarStyles.length)];
+const hair = ['long01', 'long02'
+  ,
+  'long03'
+  ,
+  'long04'
+  ,
+  'long05'
+  ,
+  'long06'
+  ,
+  'long07'
+  ,
+  'long08'
+  ,
+  'long09'
+  ,
+  'long10'
+  ,
+  'long11'
+  ,
+  'long12'
+  ,
+  'long13'
+  ,
+  'long14'
+  ,
+  'long15'
+  ,
+  'long16'
+  ,
+  'long17'
+  ,
+  'long18'
+  ,
+  'long19'
+  ,
+  'long20'
+  ,
+  'long21'
+  ,
+  'long22'
+  ,
+  'long23'
+  ,
+  'long24'
+  ,
+  'long25'
+  ,
+  'long26'
+  ,
+  'short01'
+  ,
+  'short02'
+  ,
+  'short03'
+  ,
+  'short04'
+  ,
+  'short05'
+  ,
+  'short06'
+  ,
+  'short07'
+  ,
+  'short08'
+  ,
+  'short09'
+  ,
+  'short10'
+  ,
+  'short11'
+  ,
+  'short12'
+  ,
+  'short13'
+  ,
+  'short14'
+  ,
+  'short15'
+  ,
+  'short16'
+  ,
+  'short17'
+  ,
+  'short18'
+  ,
+  'short19'
+]
+const hairStyle = hair[Math.floor(Math.random() * hair.length)];
+console.log('hairStyle', Math.floor(Math.random() * hair.length));
+const avatarUrl = `https://api.dicebear.com/9.x/${randomStyle}/svg`;
 // 用户注册
 router.post('/register', async (ctx) => {
   try {
@@ -52,7 +145,9 @@ router.post('/register', async (ctx) => {
       username,
       email,
       password,
-      role
+      role,
+      avatar: avatarUrl // 添加随机头像
+
     });
 
     await user.save();
@@ -69,6 +164,7 @@ router.post('/register', async (ctx) => {
       message: '注册成功',
       data: {
         user: {
+          avatar: avatarUrl, // 添加随机头像
           id: user._id,
           username: user.username,
           email: user.email,
@@ -153,7 +249,9 @@ router.post('/login', async (ctx) => {
           id: user._id,
           username: user.username,
           email: user.email,
-          role: user.role
+          role: user.role,
+          avatar: user.avatar,
+          createdAt: user.createdAt,
         },
         token
       }
