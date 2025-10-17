@@ -64,6 +64,20 @@ const blogsSchema = new mongoose.Schema({
         ref: "User",
         required: false,
     },
+    favoriteCount: {
+        type: Number,
+        default: 0,
+        min: 0
+    },
+    viewCount: {
+        type: Number,
+        default: 0,
+        min: 0
+    },
+    tags: [{
+        type: String,
+        required: [false, "请添加标签"],
+    }],
 
 });
 

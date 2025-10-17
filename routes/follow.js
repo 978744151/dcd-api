@@ -147,9 +147,9 @@ router.post('/unfollow', auth, async (ctx) => {
 });
 
 // 获取用户关注信息
-router.get('/info/:userId?', async (ctx) => {
+router.get('/info', auth, async (ctx) => {
     try {
-        const userId = ctx.params.userId || (ctx.state.user ? ctx.state.user.userId : null);
+        const userId = ctx.state.user.userId;
 
         if (!userId) {
             ctx.status = 400;
@@ -161,8 +161,8 @@ router.get('/info/:userId?', async (ctx) => {
         }
 
         const user = await User.findById(userId)
-            .populate('following', 'username avatar')
-            .populate('followers', 'username avatar');
+            .populate('following', 'username avatar _id')
+            .populate('followers', 'username avatar _id');
 
         if (!user) {
             ctx.status = 404;
@@ -173,14 +173,37 @@ router.get('/info/:userId?', async (ctx) => {
             return;
         }
 
+        // 为每个关注的人添加关注状态
+        const followingWithStatus = user.following.map(followingUser => ({
+            _id: followingUser._id,
+            username: followingUser.username,
+            avatar: followingUser.avatar,
+            isFollowing: true // 当前用户关注的人，所以是true
+        }));
+
+        // 为每个粉丝添加关注状态（检查当前用户是否关注了这些粉丝）
+        const followersWithStatus = await Promise.all(
+            user.followers.map(async (follower) => {
+                const isFollowingFollower = user.following.some(followingUser =>
+                    followingUser._id.toString() === follower._id.toString()
+                );
+                return {
+                    _id: follower._id,
+                    username: follower.username,
+                    avatar: follower.avatar,
+                    isFollowing: isFollowingFollower
+                };
+            })
+        );
+
         ctx.status = 200;
         ctx.body = {
             success: true,
             data: {
                 followingCount: user.following.length,
                 followersCount: user.followers.length,
-                following: user.following,
-                followers: user.followers,
+                following: followingWithStatus,
+                followers: followersWithStatus,
                 isFollowing: ctx.state.user ? user.followers.some(follower => follower._id.toString() === ctx.state.user.userId) : false
             }
         };

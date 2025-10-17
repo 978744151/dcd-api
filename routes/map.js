@@ -7,8 +7,29 @@ const BrandStore = require('../models/BrandStore');
 const Brand = require('../models/Brand');
 const Mall = require('../models/Mall');
 const Dictionary = require('../models/Dictionary');
+const ComparisonReport = require('../models/ComparisonReport');
+const jwt = require('koa-jwt');
+const jsonwebtoken = require('jsonwebtoken');
 const NodeCache = require('node-cache');
 const treeCache = new NodeCache({ stdTTL: 600 }); // 10分钟缓存
+
+// 强制认证中间件
+const auth = jwt({ secret: process.env.JWT_SECRET });
+
+// 可选认证中间件 - 如果有token则解析，没有则跳过
+const optionalAuth = async (ctx, next) => {
+  const token = ctx.headers.authorization;
+  if (token && token.startsWith('Bearer ')) {
+    try {
+      const decoded = jsonwebtoken.verify(token.replace('Bearer ', ''), process.env.JWT_SECRET);
+      ctx.state.user = decoded;
+    } catch (error) {
+      // token无效时不抛出错误，只是不设置用户信息
+      console.log('Invalid token:', error.message);
+    }
+  }
+  await next();
+};
 
 
 const router = new Router({
@@ -1091,10 +1112,10 @@ router.get('/dictionaries', async (ctx) => {
     };
   }
 });
-// 商场/城市对比接口
-router.post('/comparison', async (ctx) => {
+// 商场/城市对比接口 - 支持匿名访问，但保存报告需要登录
+router.post('/comparison', auth, async (ctx) => {
   try {
-    const { type, ids, brandIds } = ctx.request.body; // type: 'mall' | 'city', ids: 商场或城市ID数组, brandIds: 可选的品牌ID筛选
+    const { type, ids, brandIds, title, notes, saveReport = false } = ctx.request.body; // type: 'mall' | 'city', ids: 商场或城市ID数组, brandIds: 可选的品牌ID筛选
 
     if (!type || !ids || !Array.isArray(ids) || ids.length === 0) {
       ctx.status = 400;
@@ -1104,6 +1125,8 @@ router.post('/comparison', async (ctx) => {
       };
       return;
     }
+
+    // 如果需要保存报告但用户未登录，返回错误
 
     const results = [];
 
@@ -1131,6 +1154,7 @@ router.post('/comparison', async (ctx) => {
             id: city._id,
             name: city.name,
             type: 'city',
+            city: city.name,
             province: city.province?.name
           };
         }
@@ -1202,12 +1226,48 @@ router.post('/comparison', async (ctx) => {
       });
     }
 
+    // 计算整体摘要
+    const overallSummary = {
+      totalLocations: results.length,
+      totalBrands: [...new Set(results.flatMap(r => r.brands.map(b => b.brand._id.toString())))].length,
+      totalStores: results.reduce((sum, r) => sum + r.summary.totalStores, 0),
+      averageScore: results.length > 0 ?
+        (results.reduce((sum, r) => sum + parseFloat(r.summary.averageScore), 0) / results.length).toFixed(1) : '0'
+    };
+
+    let reportId = null;
+
+    // 如果需要保存报告且用户已登录
+    console.log(ctx.state.user, saveReport)
+    if (saveReport && ctx.state.user) {
+      // 生成选择的商场或城市名称列表，用逗号分隔
+      const selectedNames = results.map(result => result.location.name).join(',');
+      console.log(selectedNames)
+      const reportData = {
+        user: ctx.state.user.userId,
+        title: title || `${type === 'mall' ? '商场' : '城市'}对比报告 - ${new Date().toLocaleDateString()}`,
+        type,
+        comparisonIds: ids,
+        brandIds: brandIds || [],
+        selectedLocations: selectedNames,
+        results,
+        summary: overallSummary,
+        notes: notes || ''
+      };
+
+      const report = new ComparisonReport(reportData);
+      await report.save();
+      reportId = report._id;
+    }
+
     ctx.body = {
       success: true,
       data: {
         type,
         results,
-        comparisonDate: new Date().toISOString()
+        summary: overallSummary,
+        comparisonDate: new Date().toISOString(),
+        reportId
       }
     };
 
@@ -1216,6 +1276,239 @@ router.post('/comparison', async (ctx) => {
     ctx.body = {
       success: false,
       message: '获取对比数据失败',
+      error: error.message
+    };
+  }
+});
+
+// 获取用户对比报告列表
+router.get('/comparison/reports', auth, async (ctx) => {
+  try {
+
+    const {
+      page = 1,
+      limit = 10,
+      type,
+      isFavorite,
+      sortBy = 'createdAt',
+      sortOrder = 'desc'
+    } = ctx.query;
+    console.log(ctx.state.user.userId)
+    // 构建查询条件
+    const query = { user: ctx.state.user.userId };
+
+    if (type && ['mall', 'city'].includes(type)) {
+      query.type = type;
+    }
+
+    if (isFavorite !== undefined) {
+      query.isFavorite = isFavorite === 'true';
+    }
+
+    // 构建排序条件
+    const sort = {};
+    sort[sortBy] = sortOrder === 'desc' ? -1 : 1;
+
+    // 分页参数
+    const skip = (parseInt(page) - 1) * parseInt(limit);
+    const limitNum = parseInt(limit);
+
+    // 查询报告列表
+    const reports = await ComparisonReport.find(query)
+      .select('title type summary isFavorite createdAt updatedAt notes selectedLocations')
+      .sort(sort)
+      .skip(skip)
+      .limit(limitNum)
+      .lean();
+
+    // 获取总数
+    const total = await ComparisonReport.countDocuments(query);
+
+    ctx.body = {
+      success: true,
+      data: {
+        reports,
+        pagination: {
+          page: parseInt(page),
+          limit: limitNum,
+          total,
+          pages: Math.ceil(total / limitNum)
+        }
+      }
+    };
+
+  } catch (error) {
+    ctx.status = 500;
+    ctx.body = {
+      success: false,
+      message: '获取报告列表失败',
+      error: error.message
+    };
+  }
+});
+
+// 获取对比报告详情
+router.get('/comparison/reports/:id', auth, async (ctx) => {
+  try {
+    // 检查用户是否登录
+
+    const { id } = ctx.params;
+
+    // 验证ID格式
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      ctx.status = 400;
+      ctx.body = {
+        success: false,
+        message: '无效的报告ID'
+      };
+      return;
+    }
+
+    // 查询报告详情
+    const report = await ComparisonReport.findOne({
+      _id: id,
+      user: ctx.state.user.userId
+    }).lean();
+
+    if (!report) {
+      ctx.status = 404;
+      ctx.body = {
+        success: false,
+        message: '报告不存在或无权访问'
+      };
+      return;
+    }
+
+    ctx.body = {
+      success: true,
+      data: report
+    };
+
+  } catch (error) {
+    ctx.status = 500;
+    ctx.body = {
+      success: false,
+      message: '获取报告详情失败',
+      error: error.message
+    };
+  }
+});
+
+// 更新对比报告
+router.put('/comparison/reports/:id', async (ctx) => {
+  try {
+    // 检查用户是否登录
+    if (!ctx.state.user) {
+      ctx.status = 401;
+      ctx.body = {
+        success: false,
+        message: '请先登录'
+      };
+      return;
+    }
+
+    const { id } = ctx.params;
+    const { title, notes, isFavorite } = ctx.request.body;
+
+    // 验证ID格式
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      ctx.status = 400;
+      ctx.body = {
+        success: false,
+        message: '无效的报告ID'
+      };
+      return;
+    }
+
+    // 构建更新数据
+    const updateData = {};
+    if (title !== undefined) updateData.title = title;
+    if (notes !== undefined) updateData.notes = notes;
+    if (isFavorite !== undefined) updateData.isFavorite = isFavorite;
+    updateData.updatedAt = new Date();
+
+    // 更新报告
+    const report = await ComparisonReport.findOneAndUpdate(
+      { _id: id, user: ctx.state.user.userId },
+      updateData,
+      { new: true }
+    ).lean();
+
+    if (!report) {
+      ctx.status = 404;
+      ctx.body = {
+        success: false,
+        message: '报告不存在或无权访问'
+      };
+      return;
+    }
+
+    ctx.body = {
+      success: true,
+      data: report,
+      message: '报告更新成功'
+    };
+
+  } catch (error) {
+    ctx.status = 500;
+    ctx.body = {
+      success: false,
+      message: '更新报告失败',
+      error: error.message
+    };
+  }
+});
+
+// 删除对比报告
+router.delete('/comparison/reports/:id', async (ctx) => {
+  try {
+    // 检查用户是否登录
+    if (!ctx.state.user) {
+      ctx.status = 401;
+      ctx.body = {
+        success: false,
+        message: '请先登录'
+      };
+      return;
+    }
+
+    const { id } = ctx.params;
+
+    // 验证ID格式
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      ctx.status = 400;
+      ctx.body = {
+        success: false,
+        message: '无效的报告ID'
+      };
+      return;
+    }
+
+    // 删除报告
+    const result = await ComparisonReport.findOneAndDelete({
+      _id: id,
+      user: ctx.state.user.userId
+    });
+
+    if (!result) {
+      ctx.status = 404;
+      ctx.body = {
+        success: false,
+        message: '报告不存在或无权访问'
+      };
+      return;
+    }
+
+    ctx.body = {
+      success: true,
+      message: '报告删除成功'
+    };
+
+  } catch (error) {
+    ctx.status = 500;
+    ctx.body = {
+      success: false,
+      message: '删除报告失败',
       error: error.message
     };
   }

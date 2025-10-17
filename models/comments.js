@@ -19,6 +19,7 @@ const CommentSchema = new mongoose.Schema({
         type: Number,
         default: 0
     },
+    
     // fromUserAvatar: {
     //     type: String
     // },
@@ -40,6 +41,11 @@ const CommentSchema = new mongoose.Schema({
     parentId: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Comment',
+        default: null
+    },
+    replyTo: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User',
         default: null
     },
     createdAt: {

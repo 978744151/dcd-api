@@ -34,7 +34,14 @@ const connectDB = require('./config/database');
 connectDB();
 app.use(async (ctx, next) => {
   if (ctx.path.startsWith('/api/')) {
-    ctx.set('Cache-Control', 'public, max-age=300') // 5分钟缓存
+    ctx.set('Cache-Control', 'no-cache, no-store, must-revalidate')
+    // 对于增删改操作，不缓存
+    // if (ctx.method !== 'GET') {
+
+    // } else {
+    //   // 只对GET请求缓存
+    //   ctx.set('Cache-Control', 'public, max-age=30')
+    // }
   }
   await next()
 })
@@ -66,7 +73,6 @@ app.use(cors({
     'Access-Control-Allow-Credentials'
   ], // 允许的请求头
   exposeHeaders: ['Authorization'], // 暴露给客户端的响应头
-  maxAge: 86400 // 预检请求的缓存时间（秒）
 }));
 app.use(bodyParser());
 app.use(serve(path.join(__dirname, 'public')));
@@ -111,6 +117,8 @@ const uploadRoutes = require('./routes/upload');
 const blogRoutes = require('./routes/blogs');
 const commentRoutes = require('./routes/comment');
 const followRoutes = require('./routes/follow');
+const notificationRoutes = require('./routes/notification');
+const reportRoutes = require('./routes/report');
 
 
 app.use(authRoutes.routes()).use(authRoutes.allowedMethods());
@@ -121,6 +129,8 @@ app.use(uploadRoutes.routes()).use(uploadRoutes.allowedMethods());
 app.use(commentRoutes.routes()).use(commentRoutes.allowedMethods());
 app.use(blogRoutes.routes()).use(blogRoutes.allowedMethods());
 app.use(followRoutes.routes()).use(followRoutes.allowedMethods());
+app.use(notificationRoutes.routes()).use(notificationRoutes.allowedMethods());
+app.use(reportRoutes.routes()).use(reportRoutes.allowedMethods());
 
 // 生产环境下静态托管前端构建产物，并提供 SPA 回退
 // const distDir = path.join(__dirname, 'client', 'dist');

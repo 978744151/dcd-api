@@ -154,7 +154,7 @@ router.post('/register', async (ctx) => {
 
     // 生成JWT token
     const token = jwt.sign(
-      { userId: user._id, email: user.email, role: user.role },
+      { userId: user._id, email: user.email, role: user.role, id: user._id },
       process.env.JWT_SECRET,
       { expiresIn: process.env.JWT_EXPIRES_IN }
     );
@@ -201,7 +201,7 @@ router.post('/login', async (ctx) => {
     // 查找用户
     const user = await User.findOne({ email });
     if (!user) {
-      ctx.status = 401;
+      ctx.status = 400;
       ctx.body = {
         success: false,
         message: '邮箱或密码错误'
@@ -212,7 +212,7 @@ router.post('/login', async (ctx) => {
     // 验证密码
     const isPasswordValid = await user.comparePassword(password);
     if (!isPasswordValid) {
-      ctx.status = 401;
+      ctx.status = 400;
       ctx.body = {
         success: false,
         message: '邮箱或密码错误'
@@ -222,7 +222,7 @@ router.post('/login', async (ctx) => {
 
     // 检查用户状态
     if (!user.isActive) {
-      ctx.status = 401;
+      ctx.status = 400;
       ctx.body = {
         success: false,
         message: '账户已被禁用'
@@ -271,7 +271,7 @@ router.get('/me', async (ctx) => {
   try {
     const token = ctx.headers.authorization?.replace('Bearer ', '');
     if (!token) {
-      ctx.status = 401;
+      ctx.status = 400;
       ctx.body = {
         success: false,
         message: '未提供认证令牌'
@@ -283,7 +283,7 @@ router.get('/me', async (ctx) => {
     const user = await User.findById(decoded.userId).select('-password');
 
     if (!user) {
-      ctx.status = 401;
+      ctx.status = 400;
       ctx.body = {
         success: false,
         message: '用户不存在'
@@ -291,12 +291,30 @@ router.get('/me', async (ctx) => {
       return;
     }
 
+    // 统计关注者和关注数量
+    const followersCount = user.followers ? user.followers.length : 0;
+    const followingCount = user.following ? user.following.length : 0;
+
+    // 更新用户模型中的计数字段（如果不一致的话）
+    if (user.followersCount !== followersCount || user.followingCount !== followingCount) {
+      await User.findByIdAndUpdate(decoded.userId, {
+        followersCount,
+        followingCount
+      });
+    }
+
     ctx.body = {
       success: true,
-      data: { user }
+      data: {
+        user: {
+          ...user.toObject(),
+          followersCount,
+          followingCount
+        }
+      }
     };
   } catch (error) {
-    ctx.status = 401;
+    ctx.status = 400;
     ctx.body = {
       success: false,
       message: '无效的认证令牌'
@@ -304,4 +322,4 @@ router.get('/me', async (ctx) => {
   }
 });
 
-module.exports = router; 
+module.exports = router;

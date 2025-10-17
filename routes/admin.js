@@ -9,6 +9,9 @@ const Mall = require('../models/Mall');
 const BrandStore = require('../models/BrandStore');
 const User = require('../models/User');
 const Joi = require('joi');
+const mongoose = require('mongoose');
+const Report = require('../models/Report');
+const Dictionary = require('../models/Dictionary');
 
 const router = new Router({
   prefix: '/api/admin'
@@ -854,9 +857,6 @@ router.put('/users/:id/status', auth, requireAdmin, async (ctx) => {
     };
   }
 });
-
-// ... existing code ...
-const Dictionary = require('../models/Dictionary');
 
 // 获取字典列表
 router.get('/dictionaries', async (ctx) => {
