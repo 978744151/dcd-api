@@ -127,8 +127,10 @@ router.post('/image', auth, koaMulter(upload.single('file')), async (ctx) => {
 
         // 获取压缩后的文件信息
         const compressedStats = fs.statSync(compressedPath);
-        const fileUrl = `http://localhost:5002/uploads/${compressedFilename}`;
+        const fileUrl = `/uploads/${compressedFilename}`;
 
+        const fullUrl = `${process.env.HOST || 'http://localhost:5002'}${fileUrl}`;
+        console.log(`文件已保存：${fileUrl}`);
         ctx.body = {
             success: true,
             message: '图片上传并压缩成功',
@@ -139,7 +141,7 @@ router.post('/image', auth, koaMulter(upload.single('file')), async (ctx) => {
                 compressedSize: compressedStats.size,
                 compressionRatio: ((file.size - compressedStats.size) / file.size * 100).toFixed(2) + '%',
                 url: fileUrl,
-                fullUrl: `${process.env.HOST || 'http://localhost:5002'}${fileUrl}`,
+                fullUrl: fullUrl,
                 dimensions: {
                     width: compressedInfo.width,
                     height: compressedInfo.height

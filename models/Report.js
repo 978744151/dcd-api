@@ -23,6 +23,10 @@ const reportSchema = new mongoose.Schema({
     enum: ['spam', 'porn', 'illegal', 'abuse', 'plagiarism', 'fraud', 'privacy', 'other'],
     required: true
   },
+  // 举报原因类型中文描述
+  reasonTypeStr: {
+    type: String
+  },
   // 详细说明
   description: {
     type: String

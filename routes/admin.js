@@ -224,6 +224,53 @@ router.put('/brand-stores/:id', auth, requireAdmin, async (ctx) => {
   }
 });
 
+// 更新品牌状态
+router.post('/brands-status', auth, requireAdmin, async (ctx) => {
+  console.log(1234)
+  try {
+    const { error, value } = Joi.object({
+      id: Joi.string().required(),
+      status: Joi.string().valid('pending', 'approved', 'rejected').required(),
+    }).validate(ctx.request.body);
+
+    if (error) {
+      ctx.status = 400;
+      ctx.body = {
+        success: false,
+        message: error.details[0].message
+      };
+      return;
+    }
+    const brand = await Brand.findByIdAndUpdate(
+      value.id,
+      { status: value.status },
+      { new: true, runValidators: true }
+    );
+
+    if (!brand) {
+      ctx.status = 404;
+      ctx.body = {
+        success: false,
+        message: '品牌不存在'
+      };
+      return;
+    }
+
+    ctx.body = {
+      success: true,
+      message: '品牌状态更新成功',
+      data: brand
+    };
+  } catch (error) {
+    ctx.status = 500;
+    ctx.body = {
+      success: false,
+      message: '更新品牌状态失败',
+      error: error.message
+    };
+  }
+});
+
 // 删除品牌门店
 router.delete('/brand-stores/:id', auth, requireAdmin, async (ctx) => {
   try {
@@ -704,6 +751,7 @@ router.put('/brands/:id', auth, requireAdmin, async (ctx) => {
       isActive: Joi.boolean(),
       sort: Joi.number(),
       score: Joi.number(),
+      status: Joi.string().valid('pending', 'approved', 'rejected'),
     }).validate(ctx.request.body);
 
     if (error) {

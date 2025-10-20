@@ -16,7 +16,7 @@ const requireAdmin = async (ctx, next) => {
   }
   await next();
 };
- 
+
 const router = new Router({ prefix: '/api/report' });
 
 // 举报类型列表（公开，无需登录）
@@ -72,6 +72,8 @@ router.post('/', async (ctx) => {
       return;
     }
 
+
+    console.log('reasonTypeStr', reasonTypeStr);
     const report = new Report({
       targetType: value.targetType,
       targetId: new mongoose.Types.ObjectId(value.targetId),
@@ -102,7 +104,19 @@ router.get('/', async (ctx) => {
   try {
     const { page = 1, limit = 10, status, targetType, reporterIp, startDate, endDate, search } = ctx.query;
     const skip = (Number(page) - 1) * Number(limit);
-
+    
+    // 举报原因类型转译
+    const reasonTypeMap = {
+      'spam': '垃圾信息',
+      'porn': '涉黄',
+      'illegal': '违法违规',
+      'abuse': '辱骂/仇恨',
+      'plagiarism': '抄袭/盗用',
+      'fraud': '诈骗',
+      'privacy': '泄露隐私',
+      'other': '其他'
+    };
+  
     const query = {};
 
     if (status) query.status = status; // pending / reviewing / resolved / rejected
@@ -131,6 +145,12 @@ router.get('/', async (ctx) => {
       .limit(Number(limit))
       .lean();
 
+    // 为每个举报记录添加reasonTypeStr转译
+    const reportsWithTranslation = reports.map(report => ({
+      ...report,
+      reasonTypeStr: reasonTypeMap[report.reasonType] || report.reasonType
+    }));
+
     const total = await Report.countDocuments(query);
 
     ctx.body = {
@@ -139,7 +159,7 @@ router.get('/', async (ctx) => {
         page: Number(page),
         limit: Number(limit),
         total,
-        list: reports
+        list: reportsWithTranslation
       }
     };
   } catch (err) {
@@ -190,5 +210,5 @@ router.put('/:id/status', auth, requireAdmin, async (ctx) => {
     ctx.body = { success: false, message: '更新举报状态失败', error: err.message };
   }
 });
- 
+
 module.exports = router;

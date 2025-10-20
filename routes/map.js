@@ -294,7 +294,7 @@ router.get('/districts', async (ctx) => {
 // 获取品牌数据
 router.get('/brands', async (ctx) => {
   try {
-    const { page = 1, limit = 0, provinceId, cityId, districtId, search, category } = ctx.query;
+    const { page = 1, limit = 0, provinceId, cityId, districtId, search, category, status } = ctx.query;
     const skip = (page - 1) * limit;
 
     // 列表模式
@@ -304,6 +304,11 @@ router.get('/brands', async (ctx) => {
     if (districtId) query.district = districtId;
     if (search) query.name = { $regex: search, $options: 'i' };
     if (category) query.category = category;
+    
+    // status筛选逻辑：如果status为空或undefined，显示全部数据；否则按status筛选
+    if (status && status.trim() !== '') {
+      query.status = status;
+    }
 
     const brands = await Brand.find(query)
       .populate('province', 'name')
