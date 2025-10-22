@@ -33,6 +33,8 @@ const requireAdmin = async (ctx, next) => {
   await next();
 };
 
+
+
 // 品牌门店：在某省/市/区某商场内的品牌入驻点
 // 品牌门店：在某省/市/区某商场内的品牌入驻点
 router.post('/brand-stores', auth, requireAdmin, async (ctx) => {
@@ -826,85 +828,7 @@ router.delete('/brands/:id', auth, requireAdmin, async (ctx) => {
 
 
 
-// 用户管理
-// 获取用户列表
-router.get('/users', auth, requireAdmin, async (ctx) => {
-  try {
-    const { page = 1, limit = 20, search } = ctx.query;
-    const skip = (page - 1) * limit;
 
-    let query = {};
-    if (search) {
-      query.$or = [
-        { username: { $regex: search, $options: 'i' } },
-        { email: { $regex: search, $options: 'i' } }
-      ];
-    }
-
-    const users = await User.find(query)
-      .select('-password')
-      .skip(skip)
-      .limit(parseInt(limit))
-      .sort({ createdAt: -1 });
-
-    const total = await User.countDocuments(query);
-
-    ctx.body = {
-      success: true,
-      data: {
-        users,
-        pagination: {
-          page: parseInt(page),
-          limit: parseInt(limit),
-          total,
-          pages: Math.ceil(total / limit)
-        }
-      }
-    };
-  } catch (error) {
-    ctx.status = 500;
-    ctx.body = {
-      success: false,
-      message: '获取用户列表失败',
-      error: error.message
-    };
-  }
-});
-
-// 更新用户状态
-router.put('/users/:id/status', auth, requireAdmin, async (ctx) => {
-  try {
-    const { isActive } = ctx.request.body;
-
-    const user = await User.findByIdAndUpdate(
-      ctx.params.id,
-      { isActive },
-      { new: true }
-    ).select('-password');
-
-    if (!user) {
-      ctx.status = 404;
-      ctx.body = {
-        success: false,
-        message: '用户不存在'
-      };
-      return;
-    }
-
-    ctx.body = {
-      success: true,
-      message: '用户状态更新成功',
-      data: user
-    };
-  } catch (error) {
-    ctx.status = 500;
-    ctx.body = {
-      success: false,
-      message: '更新用户状态失败',
-      error: error.message
-    };
-  }
-});
 
 // 获取字典列表
 router.get('/dictionaries', async (ctx) => {

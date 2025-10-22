@@ -120,6 +120,7 @@ const followRoutes = require('./routes/follow');
 const notificationRoutes = require('./routes/notification');
 const reportRoutes = require('./routes/report');
 const feedbackRoutes = require('./routes/feedback');
+const userRoutes = require('./routes/user');
 
 
 app.use(authRoutes.routes()).use(authRoutes.allowedMethods());
@@ -133,6 +134,7 @@ app.use(followRoutes.routes()).use(followRoutes.allowedMethods());
 app.use(notificationRoutes.routes()).use(notificationRoutes.allowedMethods());
 app.use(reportRoutes.routes()).use(reportRoutes.allowedMethods());
 app.use(feedbackRoutes.routes()).use(feedbackRoutes.allowedMethods());
+app.use(userRoutes.routes()).use(userRoutes.allowedMethods());
 
 // 生产环境下静态托管前端构建产物，并提供 SPA 回退
 // const distDir = path.join(__dirname, 'client', 'dist');

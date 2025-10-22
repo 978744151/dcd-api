@@ -1,10 +1,192 @@
 const Router = require('koa-router');
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
+const EmailVerification = require('../models/EmailVerification');
 const Joi = require('joi');
+const nodemailer = require('nodemailer');
 
 const router = new Router({
   prefix: '/api/auth'
+});
+
+// 发送邮箱验证码
+router.post('/send-code', async (ctx) => {
+  try {
+    // 验证请求数据
+    const { error, value } = sendCodeSchema.validate(ctx.request.body);
+    if (error) {
+      ctx.status = 400;
+      ctx.body = {
+        success: false,
+        message: error.details[0].message
+      };
+      return;
+    }
+
+    const { email, type } = value;
+
+    // 检查邮箱发送频率限制（1分钟内只能发送一次）
+    const recentCode = await EmailVerification.findOne({
+      email,
+      type,
+      createdAt: { $gte: new Date(Date.now() - 60000) } // 1分钟内
+    });
+
+    if (recentCode) {
+      ctx.status = 429;
+      ctx.body = {
+        success: false,
+        message: '验证码发送过于频繁，请稍后再试'
+      };
+      return;
+    }
+
+    // 生成验证码
+    const code = generateVerificationCode();
+
+    // 保存验证码到数据库
+    const verification = new EmailVerification({
+      email,
+      code,
+      type,
+      expiresAt: new Date(Date.now() + 10 * 60 * 1000) // 10分钟后过期
+    });
+    await verification.save();
+
+    // 发送邮件
+    try {
+      await sendVerificationEmail(email, code, type);
+      ctx.body = {
+        success: true,
+        message: '验证码已发送到您的邮箱'
+      };
+    } catch (emailError) {
+      console.error('邮件发送失败:', emailError);
+      // 删除已保存的验证码记录
+      await EmailVerification.deleteOne({ _id: verification._id });
+      ctx.status = 500;
+      ctx.body = {
+        success: false,
+        message: '邮件发送失败，请稍后重试'
+      };
+    }
+  } catch (error) {
+    console.error('发送验证码错误:', error);
+    ctx.status = 500;
+    ctx.body = {
+      success: false,
+      message: '服务器内部错误'
+    };
+  }
+});
+
+// 邮箱验证码登录
+router.post('/email-login', async (ctx) => {
+  try {
+    // 验证请求数据
+    const { error, value } = emailLoginSchema.validate(ctx.request.body);
+    if (error) {
+      ctx.status = 400;
+      ctx.body = {
+        success: false,
+        message: error.details[0].message
+      };
+      return;
+    }
+
+    const { email, code } = value;
+
+    // 查找有效的验证码
+    const verification = await EmailVerification.findOne({
+      email,
+      code,
+      type: 'login',
+      isUsed: false,
+      expiresAt: { $gt: new Date() }
+    });
+
+    if (!verification) {
+      ctx.status = 400;
+      ctx.body = {
+        success: false,
+        message: '验证码无效或已过期'
+      };
+      return;
+    }
+
+    // 查找用户，如果不存在则自动创建
+    let user = await User.findOne({ email });
+    if (!user) {
+      // 自动创建新用户
+      const avatarStyles = ['adventurer', 'avataaars', 'big-ears', 'big-smile', 'glass', 'notionists-neutral', 'bottts', 'croodles', 'micah', 'miniavs', 'open-peeps', 'personas', 'pixel-art', 'fun-emoji', 'pixel-art-neutral'];
+      const randomStyle = avatarStyles[Math.floor(Math.random() * avatarStyles.length)];
+      const avatarUrl = `https://api.dicebear.com/9.x/${randomStyle}/svg`;
+
+      user = new User({
+        username: email.split('@')[0], // 使用邮箱前缀作为用户名
+        email: email,
+        password: 'auto_generated_' + Date.now(), // 自动生成密码
+        role: 'user',
+        avatar: avatarUrl,
+        isActive: true
+      });
+
+      await user.save();
+      console.log('自动创建新用户:', email);
+    }
+
+    // 检查用户状态
+    if (!user.isActive) {
+      ctx.status = 403;
+      ctx.body = {
+        success: false,
+        message: '账户已被禁用'
+      };
+      return;
+    }
+
+    // 标记验证码为已使用
+    verification.isUsed = true;
+    await verification.save();
+
+    // 更新用户最后登录时间
+    user.lastLoginAt = new Date();
+    await user.save();
+
+    // 生成JWT令牌
+    const token = jwt.sign(
+      {
+        userId: user._id,
+        email: user.email,
+        role: user.role
+      },
+      process.env.JWT_SECRET || 'your-secret-key',
+      { expiresIn: '7d' }
+    );
+
+    ctx.body = {
+      success: true,
+      message: '登录成功',
+      data: {
+        token,
+        user: {
+          id: user._id,
+          username: user.username,
+          email: user.email,
+          role: user.role,
+          avatar: user.avatar,
+          createdAt: user.createdAt
+        }
+      }
+    };
+  } catch (error) {
+    console.error('邮箱验证码登录错误:', error);
+    ctx.status = 500;
+    ctx.body = {
+      success: false,
+      message: '服务器内部错误'
+    };
+  }
 });
 
 // 注册验证规则
@@ -19,6 +201,18 @@ const registerSchema = Joi.object({
 const loginSchema = Joi.object({
   email: Joi.string().email().required(),
   password: Joi.string().required()
+});
+
+// 邮箱验证码发送验证规则
+const sendCodeSchema = Joi.object({
+  email: Joi.string().email().required(),
+  type: Joi.string().valid('login', 'register', 'reset_password').default('login')
+});
+
+// 邮箱验证码登录验证规则
+const emailLoginSchema = Joi.object({
+  email: Joi.string().email().required(),
+  code: Joi.string().length(6).required()
 });
 // 生成随机卡通头像
 const avatarStyles = ['adventurer', 'avataaars', 'big-ears', 'big-smile', 'glass', 'notionists-neutral', 'bottts', 'croodles', 'micah', 'miniavs', 'open-peeps', 'personas', 'pixel-art', 'fun-emoji', 'pixel-art-neutral'];
@@ -114,6 +308,53 @@ const hair = ['long01', 'long02'
 const hairStyle = hair[Math.floor(Math.random() * hair.length)];
 console.log('hairStyle', Math.floor(Math.random() * hair.length));
 const avatarUrl = `https://api.dicebear.com/9.x/${randomStyle}/svg`;
+
+// 配置邮件发送器
+const transporter = nodemailer.createTransport({
+  host: process.env.SMTP_HOST || 'smtp.qq.com',
+  port: process.env.SMTP_PORT || 587,
+  secure: false,
+  auth: {
+    user: process.env.SMTP_USER,
+    pass: process.env.SMTP_PASS
+  }
+});
+
+// 生成6位数字验证码
+const generateVerificationCode = () => {
+  return Math.floor(100000 + Math.random() * 900000).toString();
+};
+
+// 发送验证码邮件
+const sendVerificationEmail = async (email, code, type = 'login') => {
+  const typeMap = {
+    login: '登录',
+    register: '注册',
+    reset_password: '重置密码'
+  };
+
+  const mailOptions = {
+    from: process.env.SMTP_USER,
+    to: email,
+    subject: `懂商帝 - ${typeMap[type]}验证码`,
+    html: `
+      <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+        <h2 style="color: #007AFF;">懂商帝验证码</h2>
+        <p>您好！</p>
+        <p>您正在进行${typeMap[type]}操作，验证码为：</p>
+        <div style="background-color: #f5f5f5; padding: 20px; text-align: center; margin: 20px 0;">
+          <span style="font-size: 24px; font-weight: bold; color: #007AFF; letter-spacing: 5px;">${code}</span>
+        </div>
+        <p>验证码有效期为10分钟，请及时使用。</p>
+        <p>如果这不是您的操作，请忽略此邮件。</p>
+        <hr style="margin: 30px 0; border: none; border-top: 1px solid #eee;">
+        <p style="color: #999; font-size: 12px;">此邮件由系统自动发送，请勿回复。</p>
+      </div>
+    `
+  };
+
+  return transporter.sendMail(mailOptions);
+};
 // 用户注册
 router.post('/register', async (ctx) => {
   try {
@@ -129,13 +370,13 @@ router.post('/register', async (ctx) => {
 
     const { username, email, password, role } = value;
 
-    // 检查用户是否已存在
-    const existingUser = await User.findOne({ $or: [{ email }, { username }] });
+    // 检查邮箱是否已存在
+    const existingUser = await User.findOne({ email });
     if (existingUser) {
       ctx.status = 400;
       ctx.body = {
         success: false,
-        message: '用户名或邮箱已存在'
+        message: '邮箱已存在'
       };
       return;
     }
