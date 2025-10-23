@@ -2,6 +2,7 @@ const Router = require('koa-router');
 const jwt = require('koa-jwt');
 const Joi = require('joi');
 const User = require('../models/User');
+const Blacklist = require('../models/Blacklist');
 
 // JWT中间件
 const auth = jwt({ secret: process.env.JWT_SECRET });
@@ -34,6 +35,17 @@ router.post('/follow', auth, async (ctx) => {
             ctx.body = {
                 success: false,
                 message: '不能关注自己'
+            };
+            return;
+        }
+
+        // 检查是否存在拉黑关系
+        const hasBlacklistRelation = await Blacklist.hasBlacklistRelation(ctx.state.user.userId, userId);
+        if (hasBlacklistRelation) {
+            ctx.status = 403;
+            ctx.body = {
+                success: false,
+                message: '无法关注该用户'
             };
             return;
         }

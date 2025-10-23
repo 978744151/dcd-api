@@ -170,6 +170,7 @@ router.put('/password', authenticateToken, async (ctx) => {
 
 // 获取用户列表
 router.get('/list', authenticateToken, requireAdmin, async (ctx) => {
+    console.log('获取用户列表');
     try {
         const { page = 1, limit = 20, search } = ctx.query;
         const skip = (page - 1) * limit;
@@ -429,6 +430,35 @@ router.get('/:id', authenticateToken, requireAdmin, async (ctx) => {
         };
     }
 });
+
+// 获取单个用户信息
+router.get('/look/:id', authenticateToken, async (ctx) => {
+    try {
+        const user = await User.findById(ctx.params.id).select('-password');
+
+        if (!user) {
+            ctx.status = 404;
+            ctx.body = {
+                success: false,
+                message: '用户不存在'
+            };
+            return;
+        }
+
+        ctx.body = {
+            success: true,
+            data: user
+        };
+    } catch (error) {
+        ctx.status = 500;
+        ctx.body = {
+            success: false,
+            message: '获取用户信息失败',
+            error: error.message
+        };
+    }
+});
+
 
 // 验证规则
 const updateProfileSchema = Joi.object({

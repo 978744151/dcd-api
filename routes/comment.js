@@ -6,6 +6,7 @@ const Comment = require('../models/comments');
 const Blog = require('../models/blogs');
 const User = require('../models/User');
 const Notification = require('../models/Notification');
+const Blacklist = require('../models/Blacklist');
 const { validateContent } = require('../utils/contentFilter');
 
 const router = new Router({ prefix: '/api/comment' });
@@ -28,15 +29,14 @@ const requireCommentAuthor = async (ctx, next) => {
     try {
         const user = ctx.state.user
         const comment = await Comment.findById(ctx.params.id);
-        console.log(comment)
 
         if (!comment) {
             ctx.status = 404;
             ctx.body = { success: false, message: '评论不存在' };
             return;
         }
-
-        if (comment.user._id !== user._id && user?.role !== 'admin') {
+        console.log(comment.user._id, user.userId)
+        if (comment.user._id.toString() !== user.userId && user?.role !== 'admin') {
             ctx.status = 403;
             ctx.body = { success: false, message: '只能删除自己的评论' };
             return;
@@ -120,6 +120,18 @@ router.post('/create', requireAuth, async (ctx) => {
             ctx.body = { success: false, message: '博客不存在' };
             return;
         }
+
+        // 检查是否存在拉黑关系
+        const hasBlacklistRelation = await Blacklist.hasBlacklistRelation(ctx.state.user.userId, blog.user.toString());
+        if (hasBlacklistRelation) {
+            ctx.status = 403;
+            ctx.body = {
+                success: false,
+                message: '你无法评论该博客'
+            };
+            return;
+        }
+
         const comment = await Comment.create({
             content,
             blog: blogId,
@@ -190,7 +202,6 @@ router.post('/reply', requireAuth, async (ctx) => {
             }),
         });
         const userId = ctx.state.user.userId;
-        console.log(ctx.state)
         const { error, value } = schema.validate(ctx.request.body);
         if (error) {
             ctx.status = 400;
@@ -221,6 +232,18 @@ router.post('/reply', requireAuth, async (ctx) => {
         if (!parentComment) {
             ctx.status = 404;
             ctx.body = { success: false, message: '要回复的评论不存在' };
+            return;
+        }
+
+        // 检查是否存在拉黑关系（检查与被回复用户的关系）
+        const targetUserId = replyTo || parentComment.user;
+        const hasBlacklistRelation = await Blacklist.hasBlacklistRelation(userId, targetUserId.toString());
+        if (hasBlacklistRelation) {
+            ctx.status = 403;
+            ctx.body = {
+                success: false,
+                message: '无法回复该评论'
+            };
             return;
         }
 

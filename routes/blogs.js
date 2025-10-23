@@ -572,6 +572,102 @@ router.get('/history/:id', auth, async (ctx) => {
     }
 });
 
+// 根据userId查看他人的博客
+router.get('/user/:userId', async (ctx) => {
+    try {
+        const { userId } = ctx.params;
+        const { page = 1, limit = 10, sortByLatest } = ctx.query;
+        const skip = (page - 1) * limit;
+
+        // 验证userId是否为有效的ObjectId
+        if (!mongoose.Types.ObjectId.isValid(userId)) {
+            ctx.status = 400;
+            ctx.body = {
+                success: false,
+                message: '用户ID无效'
+            };
+            return;
+        }
+
+        // 验证用户是否存在
+        const user = await User.findById(userId).select('username email role avatar');
+        if (!user) {
+            ctx.status = 404;
+            ctx.body = {
+                success: false,
+                message: '用户不存在'
+            };
+            return;
+        }
+
+        // 构建查询条件 - 只查询指定用户的博客
+        const query = { user: userId };
+
+        // 构建排序条件
+        let sort = {};
+        if (sortByLatest === 'true') {
+            sort.createdAt = -1;
+        } else {
+            sort = { viewCount: -1, favoriteCount: -1, createdAt: -1 };
+        }
+
+        const blogs = await Blog.find(query)
+            .populate({
+                path: 'user',
+                select: 'username email role avatar'
+            })
+            .sort(sort)
+            .skip(skip)
+            .limit(parseInt(limit));
+
+        // 获取每个博客的评论统计
+        const blogsWithStats = await Promise.all(blogs.map(async (blog) => {
+            const commentCount = await Comment.countDocuments({ blog: blog._id });
+            const viewCount = blog.viewCount || 0;
+            const favoriteCount = blog.favoriteCount || 0;
+
+            return {
+                ...blog.toObject(),
+                commentCount,
+                favoriteCount,
+                viewCount,
+                createName: blog.user?.username || '未知用户',
+                images: blog.blogImage?.map(img => img.image) || [],
+                defaultImage: blog.blogImage?.[0]?.image || null
+            };
+        }));
+
+        const total = await Blog.countDocuments(query);
+
+        ctx.body = {
+            success: true,
+            data: {
+                user: {
+                    _id: user._id,
+                    username: user.username,
+                    email: user.email,
+                    role: user.role,
+                    avatar: user.avatar
+                },
+                blogs: blogsWithStats,
+                pagination: {
+                    page: parseInt(page),
+                    limit: parseInt(limit),
+                    total,
+                    pages: Math.ceil(total / limit)
+                }
+            }
+        };
+    } catch (error) {
+        ctx.status = 500;
+        ctx.body = {
+            success: false,
+            message: '获取用户博客列表失败',
+            error: error.message
+        };
+    }
+});
+
 // 获取用户的浏览历史
 router.get('/history', auth, async (ctx) => {
     try {

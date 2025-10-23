@@ -73,7 +73,6 @@ router.post('/', async (ctx) => {
     }
 
 
-    console.log('reasonTypeStr', reasonTypeStr);
     const report = new Report({
       targetType: value.targetType,
       targetId: new mongoose.Types.ObjectId(value.targetId),
@@ -104,7 +103,7 @@ router.get('/', async (ctx) => {
   try {
     const { page = 1, limit = 10, status, targetType, reporterIp, startDate, endDate, search } = ctx.query;
     const skip = (Number(page) - 1) * Number(limit);
-    
+
     // 举报原因类型转译
     const reasonTypeMap = {
       'spam': '垃圾信息',
@@ -116,7 +115,7 @@ router.get('/', async (ctx) => {
       'privacy': '泄露隐私',
       'other': '其他'
     };
-  
+
     const query = {};
 
     if (status) query.status = status; // pending / reviewing / resolved / rejected
