@@ -417,12 +417,11 @@ router.get('/brands/detail', async (ctx) => {
       brand: brandId,
       isActive: true
     });
-
+    brand.storeCount = storeCount;
     ctx.body = {
       success: true,
       data: {
         brand,
-        storeCount
       }
     };
   } catch (error) {
