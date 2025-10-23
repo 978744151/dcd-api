@@ -80,7 +80,13 @@ router.get('/provinces', async (ctx) => {
     const { page = 1, limit = 0, search } = ctx.query;
     const skip = (page - 1) * limit;
 
-    let query = { isActive: true };
+    let query = {
+      isActive: true,
+      $or: [
+        { status: 0 }, // 营业中
+        { status: { $exists: false } } // 兼容旧数据
+      ]
+    };
     if (search) {
       query.name = { $regex: search, $options: 'i' };
     }
@@ -304,7 +310,7 @@ router.get('/brands', async (ctx) => {
     if (districtId) query.district = districtId;
     if (search) query.name = { $regex: search, $options: 'i' };
     if (category) query.category = category;
-    
+
     // status筛选逻辑：如果status为空或undefined，显示全部数据；否则按status筛选
     if (status && status.trim() !== '') {
       query.status = status;
@@ -406,10 +412,17 @@ router.get('/brands/detail', async (ctx) => {
       return;
     }
 
+    // 获取该品牌的门店数量
+    const storeCount = await BrandStore.countDocuments({
+      brand: brandId,
+      isActive: true
+    });
+
     ctx.body = {
       success: true,
       data: {
-        brand
+        brand,
+        storeCount
       }
     };
   } catch (error) {

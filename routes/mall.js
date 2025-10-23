@@ -46,7 +46,8 @@ router.post('/', auth, requireAdmin, async (ctx) => {
       totalArea: Joi.number().default(0),
       parkingSpaces: Joi.number().default(0),
       openingHours: Joi.string(),
-      isActive: Joi.boolean().allow('', null)
+      isActive: Joi.boolean().allow('', null),
+      status: Joi.number().valid(0, 2, 3).default(0)
     }).validate(ctx.request.body);
 
     if (error) {
@@ -95,7 +96,8 @@ router.put('/:id', auth, requireAdmin, async (ctx) => {
       totalArea: Joi.number().allow('', null),
       parkingSpaces: Joi.number().allow('', null),
       openingHours: Joi.string().allow('', null),
-      isActive: Joi.boolean().allow('', null)
+      isActive: Joi.boolean().allow('', null),
+      status: Joi.number().valid(0, 2, 3).allow('', null)
     }).validate(ctx.request.body);
 
     if (error) {

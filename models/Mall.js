@@ -68,9 +68,14 @@ const mallSchema = new mongoose.Schema({
   isActive: {
     type: Boolean,
     default: true
+  },
+  status: {
+    type: Number,
+    enum: [0, 2, 3], // 0: 营业中, 2: 已关闭, 3: 不显示
+    default: 0
   }
 }, {
   timestamps: true
 });
 
-module.exports = mongoose.model('Mall', mallSchema); 
+module.exports = mongoose.model('Mall', mallSchema);
