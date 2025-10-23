@@ -94,7 +94,7 @@ router.put('/:id', auth, requireAdmin, async (ctx) => {
       totalArea: Joi.number().allow('', null),
       parkingSpaces: Joi.number().allow('', null),
       openingHours: Joi.string().allow('', null),
-      isActive: Joi.boolean()
+      isActive: Joi.boolean().allow('', null)
     }).validate(ctx.request.body);
 
     if (error) {
