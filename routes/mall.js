@@ -45,7 +45,8 @@ router.post('/', auth, requireAdmin, async (ctx) => {
       floorCount: Joi.number().default(1),
       totalArea: Joi.number().default(0),
       parkingSpaces: Joi.number().default(0),
-      openingHours: Joi.string()
+      openingHours: Joi.string(),
+      isActive: Joi.boolean().allow('', null)
     }).validate(ctx.request.body);
 
     if (error) {

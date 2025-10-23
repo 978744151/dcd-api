@@ -1061,4 +1061,384 @@ router.put('/dictionaries/batch/sort', async (ctx) => {
   }
 });
 
+// 软删除数据管理
+// 获取软删除的用户列表
+router.get('/soft-deleted/users', auth, requireAdmin, async (ctx) => {
+  try {
+    const { page = 1, limit = 20, search } = ctx.query;
+    const skip = (page - 1) * limit;
+
+    let query = { isActive: false };
+    if (search) {
+      query.$or = [
+        { username: { $regex: search, $options: 'i' } },
+        { email: { $regex: search, $options: 'i' } },
+        { nickname: { $regex: search, $options: 'i' } }
+      ];
+    }
+
+    const users = await User.find(query)
+      .select('-password')
+      .skip(skip)
+      .limit(parseInt(limit))
+      .sort({ updatedAt: -1 });
+
+    const total = await User.countDocuments(query);
+
+    ctx.body = {
+      success: true,
+      data: {
+        users,
+        pagination: {
+          page: parseInt(page),
+          limit: parseInt(limit),
+          total,
+          pages: Math.ceil(total / limit)
+        }
+      }
+    };
+  } catch (error) {
+    ctx.status = 500;
+    ctx.body = {
+      success: false,
+      message: '获取软删除用户列表失败',
+      error: error.message
+    };
+  }
+});
+
+// 获取软删除的商场列表
+router.get('/soft-deleted/malls', auth, requireAdmin, async (ctx) => {
+  try {
+    const { page = 1, limit = 20, search } = ctx.query;
+    const skip = (page - 1) * limit;
+
+    let query = { isActive: false };
+    if (search) {
+      query.$or = [
+        { name: { $regex: search, $options: 'i' } },
+        { code: { $regex: search, $options: 'i' } },
+        { address: { $regex: search, $options: 'i' } }
+      ];
+    }
+
+    const malls = await Mall.find(query)
+      .populate('province', 'name')
+      .populate('city', 'name')
+      .populate('district', 'name')
+      .skip(skip)
+      .limit(parseInt(limit))
+      .sort({ updatedAt: -1 });
+
+    const total = await Mall.countDocuments(query);
+
+    ctx.body = {
+      success: true,
+      data: {
+        malls,
+        pagination: {
+          page: parseInt(page),
+          limit: parseInt(limit),
+          total,
+          pages: Math.ceil(total / limit)
+        }
+      }
+    };
+  } catch (error) {
+    ctx.status = 500;
+    ctx.body = {
+      success: false,
+      message: '获取软删除商场列表失败',
+      error: error.message
+    };
+  }
+});
+
+// 获取软删除的品牌列表
+router.get('/soft-deleted/brands', auth, requireAdmin, async (ctx) => {
+  try {
+    const { page = 1, limit = 20, search } = ctx.query;
+    const skip = (page - 1) * limit;
+
+    let query = { isActive: false };
+    if (search) {
+      query.$or = [
+        { name: { $regex: search, $options: 'i' } },
+        { code: { $regex: search, $options: 'i' } },
+        { category: { $regex: search, $options: 'i' } }
+      ];
+    }
+
+    const brands = await Brand.find(query)
+      .populate('province', 'name')
+      .populate('city', 'name')
+      .populate('district', 'name')
+      .skip(skip)
+      .limit(parseInt(limit))
+      .sort({ updatedAt: -1 });
+
+    const total = await Brand.countDocuments(query);
+
+    ctx.body = {
+      success: true,
+      data: {
+        brands,
+        pagination: {
+          page: parseInt(page),
+          limit: parseInt(limit),
+          total,
+          pages: Math.ceil(total / limit)
+        }
+      }
+    };
+  } catch (error) {
+    ctx.status = 500;
+    ctx.body = {
+      success: false,
+      message: '获取软删除品牌列表失败',
+      error: error.message
+    };
+  }
+});
+
+// 获取软删除的品牌门店列表
+router.get('/soft-deleted/brand-stores', auth, requireAdmin, async (ctx) => {
+  try {
+    const { page = 1, limit = 20, search, brandId, mallId } = ctx.query;
+    const skip = (page - 1) * limit;
+
+    let query = { isActive: false };
+    if (brandId) query.brand = brandId;
+    if (mallId) query.mall = mallId;
+    if (search) {
+      query.$or = [
+        { storeName: { $regex: search, $options: 'i' } },
+        { storeAddress: { $regex: search, $options: 'i' } }
+      ];
+    }
+
+    const stores = await BrandStore.find(query)
+      .populate('brand', 'name')
+      .populate('mall', 'name address')
+      .populate('province', 'name')
+      .populate('city', 'name')
+      .populate('district', 'name')
+      .skip(skip)
+      .limit(parseInt(limit))
+      .sort({ updatedAt: -1 });
+
+    const total = await BrandStore.countDocuments(query);
+
+    ctx.body = {
+      success: true,
+      data: {
+        stores,
+        pagination: {
+          page: parseInt(page),
+          limit: parseInt(limit),
+          total,
+          pages: Math.ceil(total / limit)
+        }
+      }
+    };
+  } catch (error) {
+    ctx.status = 500;
+    ctx.body = {
+      success: false,
+      message: '获取软删除品牌门店列表失败',
+      error: error.message
+    };
+  }
+});
+
+// 恢复软删除的数据
+router.post('/restore/:type/:id', auth, requireAdmin, async (ctx) => {
+  try {
+    const { type, id } = ctx.params;
+    let Model;
+    let itemName;
+
+    switch (type) {
+      case 'user':
+        Model = User;
+        itemName = '用户';
+        break;
+      case 'mall':
+        Model = Mall;
+        itemName = '商场';
+        break;
+      case 'brand':
+        Model = Brand;
+        itemName = '品牌';
+        break;
+      case 'brand-store':
+        Model = BrandStore;
+        itemName = '品牌门店';
+        break;
+      default:
+        ctx.status = 400;
+        ctx.body = {
+          success: false,
+          message: '不支持的数据类型'
+        };
+        return;
+    }
+
+    const item = await Model.findByIdAndUpdate(
+      id,
+      { isActive: true },
+      { new: true, runValidators: true }
+    );
+
+    if (!item) {
+      ctx.status = 404;
+      ctx.body = {
+        success: false,
+        message: `${itemName}不存在`
+      };
+      return;
+    }
+
+    ctx.body = {
+      success: true,
+      message: `${itemName}恢复成功`,
+      data: item
+    };
+  } catch (error) {
+    ctx.status = 500;
+    ctx.body = {
+      success: false,
+      message: '恢复数据失败',
+      error: error.message
+    };
+  }
+});
+
+// 永久删除软删除的数据
+router.delete('/permanent/:type/:id', auth, requireAdmin, async (ctx) => {
+  try {
+    const { type, id } = ctx.params;
+    let Model;
+    let itemName;
+
+    switch (type) {
+      case 'user':
+        Model = User;
+        itemName = '用户';
+        break;
+      case 'mall':
+        Model = Mall;
+        itemName = '商场';
+        break;
+      case 'brand':
+        Model = Brand;
+        itemName = '品牌';
+        break;
+      case 'brand-store':
+        Model = BrandStore;
+        itemName = '品牌门店';
+        break;
+      default:
+        ctx.status = 400;
+        ctx.body = {
+          success: false,
+          message: '不支持的数据类型'
+        };
+        return;
+    }
+
+    // 确保只能删除已经软删除的数据
+    const item = await Model.findOne({ _id: id, isActive: false });
+    if (!item) {
+      ctx.status = 404;
+      ctx.body = {
+        success: false,
+        message: `${itemName}不存在或未被软删除`
+      };
+      return;
+    }
+
+    await Model.findByIdAndDelete(id);
+
+    ctx.body = {
+      success: true,
+      message: `${itemName}永久删除成功`
+    };
+  } catch (error) {
+    ctx.status = 500;
+    ctx.body = {
+      success: false,
+      message: '永久删除数据失败',
+      error: error.message
+    };
+  }
+});
+
+// 批量恢复软删除的数据
+router.post('/restore-batch/:type', auth, requireAdmin, async (ctx) => {
+  try {
+    const { type } = ctx.params;
+    const { ids } = ctx.request.body;
+
+    if (!Array.isArray(ids) || ids.length === 0) {
+      ctx.status = 400;
+      ctx.body = {
+        success: false,
+        message: '请提供有效的ID列表'
+      };
+      return;
+    }
+
+    let Model;
+    let itemName;
+
+    switch (type) {
+      case 'user':
+        Model = User;
+        itemName = '用户';
+        break;
+      case 'mall':
+        Model = Mall;
+        itemName = '商场';
+        break;
+      case 'brand':
+        Model = Brand;
+        itemName = '品牌';
+        break;
+      case 'brand-store':
+        Model = BrandStore;
+        itemName = '品牌门店';
+        break;
+      default:
+        ctx.status = 400;
+        ctx.body = {
+          success: false,
+          message: '不支持的数据类型'
+        };
+        return;
+    }
+
+    const result = await Model.updateMany(
+      { _id: { $in: ids }, isActive: false },
+      { isActive: true }
+    );
+
+    ctx.body = {
+      success: true,
+      message: `成功恢复${result.modifiedCount}个${itemName}`,
+      data: {
+        modifiedCount: result.modifiedCount,
+        matchedCount: result.matchedCount
+      }
+    };
+  } catch (error) {
+    ctx.status = 500;
+    ctx.body = {
+      success: false,
+      message: '批量恢复数据失败',
+      error: error.message
+    };
+  }
+});
+
 module.exports = router;
