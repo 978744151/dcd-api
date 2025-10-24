@@ -47,7 +47,8 @@ router.post('/', auth, requireAdmin, async (ctx) => {
       parkingSpaces: Joi.number().default(0),
       openingHours: Joi.string(),
       isActive: Joi.boolean().allow('', null),
-      status: Joi.number().valid(0, 2, 3).default(0)
+      status: Joi.number().valid(0, 2, 3).default(0),
+      isOla: Joi.boolean().default(false)
     }).validate(ctx.request.body);
 
     if (error) {
@@ -97,7 +98,8 @@ router.put('/:id', auth, requireAdmin, async (ctx) => {
       parkingSpaces: Joi.number().allow('', null),
       openingHours: Joi.string().allow('', null),
       isActive: Joi.boolean().allow('', null),
-      status: Joi.number().valid(0, 2, 3).allow('', null)
+      status: Joi.number().valid(0, 2, 3).allow('', null),
+      isOla: Joi.boolean().allow('', null)
     }).validate(ctx.request.body);
 
     if (error) {

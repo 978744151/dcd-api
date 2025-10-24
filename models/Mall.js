@@ -73,6 +73,10 @@ const mallSchema = new mongoose.Schema({
     type: Number,
     enum: [0, 2, 3], // 0: 营业中, 2: 已关闭, 3: 不显示
     default: 0
+  },
+  isOla: {
+    type: Boolean,
+    default: false // 默认不是奥莱商城
   }
 }, {
   timestamps: true
