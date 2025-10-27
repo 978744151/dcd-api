@@ -108,6 +108,9 @@ router.post('/brand-stores', auth, requireAdmin, async (ctx) => {
 
     // 批量创建门店记录（只为未添加的商场）
     const storePromises = malls.map(mall => {
+      // 检测商场名称是否包含"奥莱"或"奥特莱斯"，自动设置isOla字段
+      const isOutletMall = mall.name && (mall.name.includes('奥莱') || mall.name.includes('奥特莱斯'));
+
       const storeData = {
         brand: value.brand,
         mall: mall._id,
@@ -120,7 +123,7 @@ router.post('/brand-stores', auth, requireAdmin, async (ctx) => {
         floor: value.floor,
         unitNumber: value.unitNumber,
         openingHours: value.openingHours,
-        isOla: value.isOla,
+        isOla: isOutletMall || value.isOla, // 如果检测到奥莱商场或用户手动设置，则为true
         isActive: value.isActive,
         phone: value.phone
       };
