@@ -198,6 +198,9 @@ router.get('/:mallId/brands', auth, async (ctx) => {
       return;
     }
 
+    // 增加商场点击次数
+    await Mall.findByIdAndUpdate(mallId, { $inc: { clickCount: 1 } });
+
     // 获取该商场下所有有门店的品牌ID
     const brandStoreAgg = await BrandStore.aggregate([
       {
