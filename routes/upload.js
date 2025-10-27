@@ -26,6 +26,10 @@ const storage = multer.diskStorage({
     filename: function (req, file, cb) {
         // 生成唯一文件名：时间戳 + 随机数 + 原始扩展名
         const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
+
+
+
+
         const ext = path.extname(file.originalname);
         cb(null, 'logo-' + uniqueSuffix + ext);
     }
@@ -140,8 +144,9 @@ router.post('/image', auth, koaMulter(upload.single('file')), async (ctx) => {
                 originalSize: file.size,
                 compressedSize: compressedStats.size,
                 compressionRatio: ((file.size - compressedStats.size) / file.size * 100).toFixed(2) + '%',
-                url: fileUrl,
+                url: fullUrl,
                 fullUrl: fullUrl,
+                fileUrl: fileUrl,
                 dimensions: {
                     width: compressedInfo.width,
                     height: compressedInfo.height
