@@ -77,6 +77,10 @@ const mallSchema = new mongoose.Schema({
   isOla: {
     type: Boolean,
     default: false // 默认不是奥莱商城
+  },
+  clickCount: {
+    type: Number,
+    default: 0 // 点击次数，默认为0
   }
 }, {
   timestamps: true

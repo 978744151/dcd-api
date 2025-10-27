@@ -968,7 +968,7 @@ router.get('/brandDetail', async (ctx) => {
 // 获取商场数据
 router.get('/malls', async (ctx) => {
   try {
-    const { page = 1, limit = 0, provinceId, cityId, districtId, search } = ctx.query;
+    const { page = 1, limit = 0, provinceId, cityId, districtId, search, sortBy = 'clickCount' } = ctx.query;
     const skip = (page - 1) * limit;
 
     let query = { isActive: true };
@@ -985,13 +985,25 @@ router.get('/malls', async (ctx) => {
       query.name = { $regex: search, $options: 'i' };
     }
 
+    // 设置排序规则
+    let sortOptions = {};
+    if (sortBy === 'clickCount') {
+      sortOptions = { clickCount: -1, createdAt: -1 }; // 按点击次数降序，创建时间降序
+    } else if (sortBy === 'createdAt') {
+      sortOptions = { createdAt: -1 }; // 按创建时间降序
+    } else if (sortBy === 'name') {
+      sortOptions = { name: 1 }; // 按名称升序
+    } else {
+      sortOptions = { clickCount: -1, createdAt: -1 }; // 默认按点击次数排序
+    }
+
     const malls = await Mall.find(query)
       .populate('province', 'name')
       .populate('city', 'name')
       .populate('district', 'name')
       .skip(skip)
       .limit(parseInt(limit))
-      .sort({ createdAt: -1 });
+      .sort(sortOptions);
 
     const total = await Mall.countDocuments(query);
 
@@ -1012,6 +1024,64 @@ router.get('/malls', async (ctx) => {
     ctx.body = {
       success: false,
       message: '获取商场数据失败',
+      error: error.message
+    };
+  }
+});
+
+// 获取商场详情并增加点击次数
+router.get('/malls/:id', async (ctx) => {
+  try {
+    const { id } = ctx.params;
+
+    // 验证ID格式
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      ctx.status = 400;
+      ctx.body = {
+        success: false,
+        message: '无效的商场ID'
+      };
+      return;
+    }
+
+    // 查找商场并增加点击次数
+    const mall = await Mall.findByIdAndUpdate(
+      id,
+      { $inc: { clickCount: 1 } }, // 点击次数加1
+      { new: true } // 返回更新后的文档
+    )
+      .populate('province', 'name')
+      .populate('city', 'name')
+      .populate('district', 'name');
+
+    if (!mall) {
+      ctx.status = 404;
+      ctx.body = {
+        success: false,
+        message: '商场不存在'
+      };
+      return;
+    }
+
+    // 检查商场是否激活
+    if (!mall.isActive) {
+      ctx.status = 403;
+      ctx.body = {
+        success: false,
+        message: '商场已停用'
+      };
+      return;
+    }
+
+    ctx.body = {
+      success: true,
+      data: mall
+    };
+  } catch (error) {
+    ctx.status = 500;
+    ctx.body = {
+      success: false,
+      message: '获取商场详情失败',
       error: error.message
     };
   }
