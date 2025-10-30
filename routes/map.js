@@ -973,26 +973,36 @@ router.get('/malls', async (ctx) => {
 
     let query = { isActive: true };
 
-    // 处理省份筛选 - 支持ID和code
+    // 处理省份筛选 - 支持ID、code和名称
     if (provinceId) {
       if (mongoose.Types.ObjectId.isValid(provinceId)) {
         query.province = provinceId;
       } else {
-        // 如果不是有效的ObjectId，则按code查找省份
-        const province = await Province.findOne({ code: provinceId });
+        // 如果不是有效的ObjectId，则按code或名称查找省份
+        const province = await Province.findOne({
+          $or: [
+            { code: provinceId },
+            { name: provinceId }
+          ]
+        });
         if (province) {
           query.province = province._id;
         }
       }
     }
 
-    // 处理城市筛选 - 支持ID和code
+    // 处理城市筛选 - 支持ID、code和名称
     if (cityId) {
       if (mongoose.Types.ObjectId.isValid(cityId)) {
         query.city = cityId;
       } else {
-        // 如果不是有效的ObjectId，则按code查找城市
-        const city = await City.findOne({ code: cityId });
+        // 如果不是有效的ObjectId，则按code或名称查找城市
+        const city = await City.findOne({
+          $or: [
+            { code: cityId },
+            { name: cityId }
+          ]
+        });
         if (city) {
           query.city = city._id;
         }
