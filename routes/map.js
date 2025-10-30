@@ -972,15 +972,37 @@ router.get('/malls', async (ctx) => {
     const skip = (page - 1) * limit;
 
     let query = { isActive: true };
+
+    // 处理省份筛选 - 支持ID和code
     if (provinceId) {
-      query.province = provinceId;
+      if (mongoose.Types.ObjectId.isValid(provinceId)) {
+        query.province = provinceId;
+      } else {
+        // 如果不是有效的ObjectId，则按code查找省份
+        const province = await Province.findOne({ code: provinceId });
+        if (province) {
+          query.province = province._id;
+        }
+      }
     }
+
+    // 处理城市筛选 - 支持ID和code
     if (cityId) {
-      query.city = cityId;
+      if (mongoose.Types.ObjectId.isValid(cityId)) {
+        query.city = cityId;
+      } else {
+        // 如果不是有效的ObjectId，则按code查找城市
+        const city = await City.findOne({ code: cityId });
+        if (city) {
+          query.city = city._id;
+        }
+      }
     }
+
     if (districtId) {
       query.district = districtId;
     }
+
     if (search) {
       query.name = { $regex: search, $options: 'i' };
     }
@@ -998,8 +1020,8 @@ router.get('/malls', async (ctx) => {
     }
 
     const malls = await Mall.find(query)
-      .populate('province', 'name')
-      .populate('city', 'name')
+      .populate('province', 'name code')
+      .populate('city', 'name code')
       .populate('district', 'name')
       .skip(skip)
       .limit(parseInt(limit))
