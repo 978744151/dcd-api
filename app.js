@@ -108,7 +108,7 @@ app.use(async (ctx, next) => {
   }
 });
 
-// 路由配置
+// 路由引入
 const authRoutes = require('./routes/auth');
 const mapRoutes = require('./routes/map');
 const adminRoutes = require('./routes/admin');
@@ -122,6 +122,7 @@ const reportRoutes = require('./routes/report');
 const feedbackRoutes = require('./routes/feedback');
 const userRoutes = require('./routes/user');
 const blacklistRoutes = require('./routes/blacklist');
+const deepseekRoutes = require('./routes/deepseek');
 
 
 app.use(authRoutes.routes()).use(authRoutes.allowedMethods());
@@ -137,6 +138,7 @@ app.use(reportRoutes.routes()).use(reportRoutes.allowedMethods());
 app.use(feedbackRoutes.routes()).use(feedbackRoutes.allowedMethods());
 app.use(userRoutes.routes()).use(userRoutes.allowedMethods());
 app.use(blacklistRoutes.routes()).use(blacklistRoutes.allowedMethods());
+app.use(deepseekRoutes.routes()).use(deepseekRoutes.allowedMethods());
 
 // 生产环境下静态托管前端构建产物，并提供 SPA 回退
 // const distDir = path.join(__dirname, 'client', 'dist');
